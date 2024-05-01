@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 0,
     "failures": 10,
-    "start": "2024-04-29T19:02:28.517Z",
-    "end": "2024-04-29T19:09:04.014Z",
-    "duration": 34504,
+    "start": "2024-04-30T20:18:26.060Z",
+    "end": "2024-04-30T20:25:03.844Z",
+    "duration": 34464,
     "testsRegistered": 71,
     "passPercent": 0,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "250ea822-4257-4aed-ab7a-8a4bef86ab2e",
+      "uuid": "e94a7318-f72d-4960-8424-86ea5ec830da",
       "title": "",
       "fullFile": "cypress\\e2e\\hipaa-comp\\employee\\contact_us.cy.ts",
       "file": "cypress\\e2e\\hipaa-comp\\employee\\contact_us.cy.ts",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "c6e83da7-2356-49f7-a798-a18f8ad1dc90",
+          "uuid": "dcf0d12a-fd74-4602-aac9-5202d20979f5",
           "title": "HIPAA COMP : Employee : Dashboard : Contact Us",
           "fullFile": "",
           "file": "",
@@ -51,7 +51,7 @@
                 "estack": "CypressError: `cy.click()` failed because it requires a DOM element.\n\nNo elements in the current DOM matched your query:\n\n  > cy.get([data-ga-button=\"Logout\"])\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at isElement (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:145307:62)\n    at validateType (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:145165:14)\n    at Object.isType (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:145196:7)\n    at $Cy.pushSubject (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:138850:22)\n    at wrapped (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:138410:19)\nFrom Your Spec Code:\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:147:24)",
                 "diff": null
               },
-              "uuid": "6fd9748f-b2e9-4504-9976-4931ec9a2631",
+              "uuid": "bec4ff87-6ec3-4160-acaa-b7808c90958f",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -69,7 +69,7 @@
               "context": null,
               "code": "CONTACT_US.verifyTextsIfContains();",
               "err": {},
-              "uuid": "82b839a8-a61c-4a40-b9c3-68b899dbc5ae",
+              "uuid": "a684cb8f-e215-4c1b-ab0f-d6aa74a09336",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -87,7 +87,7 @@
               "context": null,
               "code": "CONTACT_US.cancelSubmission();",
               "err": {},
-              "uuid": "1b204f1e-f1c7-4b11-afa8-c7e665852655",
+              "uuid": "d9a74e4b-eb82-4ab2-9298-b02095b765ed",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -105,7 +105,7 @@
               "context": null,
               "code": "SIDE_NAV_BAR.editProfile();\nCONTACT_US.viewContactUsTab();\nCONTACT_US.submitContactUs();",
               "err": {},
-              "uuid": "d76ee3b9-ad8b-441b-9471-821b697cb127",
+              "uuid": "d315c83d-1e49-4917-b601-17bcc598c6ce",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -114,13 +114,13 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "6fd9748f-b2e9-4504-9976-4931ec9a2631"
+            "bec4ff87-6ec3-4160-acaa-b7808c90958f"
           ],
           "pending": [],
           "skipped": [
-            "82b839a8-a61c-4a40-b9c3-68b899dbc5ae",
-            "1b204f1e-f1c7-4b11-afa8-c7e665852655",
-            "d76ee3b9-ad8b-441b-9471-821b697cb127"
+            "a684cb8f-e215-4c1b-ab0f-d6aa74a09336",
+            "d9a74e4b-eb82-4ab2-9298-b02095b765ed",
+            "d315c83d-1e49-4917-b601-17bcc598c6ce"
           ],
           "duration": 0,
           "root": false,
@@ -138,7 +138,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "5a1d74ee-7d4c-483c-aa8a-da549b6be6bb",
+      "uuid": "d9703366-04d3-4f84-a32d-174c98c6900f",
       "title": "",
       "fullFile": "cypress\\e2e\\hipaa-comp\\employee\\profile.cy.ts",
       "file": "cypress\\e2e\\hipaa-comp\\employee\\profile.cy.ts",
@@ -147,7 +147,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "9c2e705c-c9fc-49ee-adc1-08ebe998e442",
+          "uuid": "994159b8-e956-4412-881e-89021f805dcf",
           "title": "HIPAA COMP : Employee : General",
           "fullFile": "",
           "file": "",
@@ -158,7 +158,7 @@
               "title": "Application Menu : Default items should visible",
               "fullTitle": "HIPAA COMP : Employee : General Application Menu : Default items should visible",
               "timedOut": null,
-              "duration": 34504,
+              "duration": 34464,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -171,8 +171,8 @@
                 "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `#password`, but never found it.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nBecause this error occurred during a `before all` hook we are skipping the remaining tests in the current suite: `HIPAA COMP : Employee : Gen...`\n    at Object.eval [as setup] (webpack://pii-protect/./cypress/support/commands.ts:104:11)",
                 "diff": null
               },
-              "uuid": "4b881a74-26c5-4e2b-baba-e3e8403bb24a",
-              "parentUUID": "9c2e705c-c9fc-49ee-adc1-08ebe998e442",
+              "uuid": "cab5909c-edd3-465b-a756-561231161520",
+              "parentUUID": "994159b8-e956-4412-881e-89021f805dcf",
               "isHook": false,
               "skipped": false
             },
@@ -189,8 +189,8 @@
               "context": null,
               "code": "SIDE_NAV_BAR.verifyTextsIfContains('E');",
               "err": {},
-              "uuid": "d2ca42c5-3db9-424d-a62f-8e440a5f59b1",
-              "parentUUID": "9c2e705c-c9fc-49ee-adc1-08ebe998e442",
+              "uuid": "b842dabe-b940-4f4d-b9a8-d3b89c684190",
+              "parentUUID": "994159b8-e956-4412-881e-89021f805dcf",
               "isHook": false,
               "skipped": true
             },
@@ -207,8 +207,8 @@
               "context": null,
               "code": "SIDE_NAV_BAR.favoriteApp('assertAll');",
               "err": {},
-              "uuid": "d6bf759c-2240-49c0-9f81-5ea5eb27ebe8",
-              "parentUUID": "9c2e705c-c9fc-49ee-adc1-08ebe998e442",
+              "uuid": "f021656e-bb23-4db6-93e2-d7ba954951ec",
+              "parentUUID": "994159b8-e956-4412-881e-89021f805dcf",
               "isHook": false,
               "skipped": true
             },
@@ -225,8 +225,8 @@
               "context": null,
               "code": "SIDE_NAV_BAR.editProfile();\nMY_PROFILE.verifyItemsIfExist('HIPAA_COMP', 'E');",
               "err": {},
-              "uuid": "d987384f-9aef-480b-9f65-87864cbe9c55",
-              "parentUUID": "9c2e705c-c9fc-49ee-adc1-08ebe998e442",
+              "uuid": "c56aa825-f230-4e37-a55b-3fec44b300d3",
+              "parentUUID": "994159b8-e956-4412-881e-89021f805dcf",
               "isHook": false,
               "skipped": true
             },
@@ -243,8 +243,8 @@
               "context": null,
               "code": "MY_PROFILE.verifyTextsIfContains('HIPAA_COMP', 'E');",
               "err": {},
-              "uuid": "c0761d94-ba19-42e2-8122-7dfa4f287f40",
-              "parentUUID": "9c2e705c-c9fc-49ee-adc1-08ebe998e442",
+              "uuid": "5657a1f9-4b11-48a2-9af3-0a5e67f48b37",
+              "parentUUID": "994159b8-e956-4412-881e-89021f805dcf",
               "isHook": false,
               "skipped": true
             },
@@ -261,8 +261,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('update_basic_info', '', 'E');",
               "err": {},
-              "uuid": "65ec4466-e95d-4a13-b469-b57948f6044a",
-              "parentUUID": "9c2e705c-c9fc-49ee-adc1-08ebe998e442",
+              "uuid": "9db42bf8-f945-47c6-a682-e2f366f9504a",
+              "parentUUID": "994159b8-e956-4412-881e-89021f805dcf",
               "isHook": false,
               "skipped": true
             },
@@ -279,8 +279,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('clear_all_fields', '', '');",
               "err": {},
-              "uuid": "ae6e9e6a-6a44-4806-9a3c-b1d87fd200bd",
-              "parentUUID": "9c2e705c-c9fc-49ee-adc1-08ebe998e442",
+              "uuid": "fa288b99-a1dc-4da7-901a-76d9da20492d",
+              "parentUUID": "994159b8-e956-4412-881e-89021f805dcf",
               "isHook": false,
               "skipped": true
             },
@@ -297,8 +297,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('un_matched_password', '', '');",
               "err": {},
-              "uuid": "08eb9ecc-537f-458b-bc12-995cc563904a",
-              "parentUUID": "9c2e705c-c9fc-49ee-adc1-08ebe998e442",
+              "uuid": "602ff5cd-4910-493a-94c2-f9c0c0a4e870",
+              "parentUUID": "994159b8-e956-4412-881e-89021f805dcf",
               "isHook": false,
               "skipped": true
             },
@@ -315,8 +315,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('validate_screen_name', '', '');",
               "err": {},
-              "uuid": "428bc143-49f1-4ec1-aa8a-537ab2042207",
-              "parentUUID": "9c2e705c-c9fc-49ee-adc1-08ebe998e442",
+              "uuid": "00894440-5021-4069-82ac-71be97e4d0b1",
+              "parentUUID": "994159b8-e956-4412-881e-89021f805dcf",
               "isHook": false,
               "skipped": true
             },
@@ -333,8 +333,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('validate_phone_number', '', '');",
               "err": {},
-              "uuid": "41089f7f-de28-4dce-b5ae-14c6e880ce9c",
-              "parentUUID": "9c2e705c-c9fc-49ee-adc1-08ebe998e442",
+              "uuid": "b13a87ef-61c7-468e-8b9a-b1df425f56ff",
+              "parentUUID": "994159b8-e956-4412-881e-89021f805dcf",
               "isHook": false,
               "skipped": true
             },
@@ -351,8 +351,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('validate_mobile_number', '', '');",
               "err": {},
-              "uuid": "ae4f467d-59a1-439a-8703-ac25152baf45",
-              "parentUUID": "9c2e705c-c9fc-49ee-adc1-08ebe998e442",
+              "uuid": "ab1a0718-5008-4d24-bbf5-a242d76de476",
+              "parentUUID": "994159b8-e956-4412-881e-89021f805dcf",
               "isHook": false,
               "skipped": true
             },
@@ -369,8 +369,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('validate_mobile_country_code', '', '');",
               "err": {},
-              "uuid": "c7f3d918-8886-46bc-9663-d29db352aebd",
-              "parentUUID": "9c2e705c-c9fc-49ee-adc1-08ebe998e442",
+              "uuid": "6d5b8408-0401-4e13-b895-50415cfc8e3a",
+              "parentUUID": "994159b8-e956-4412-881e-89021f805dcf",
               "isHook": false,
               "skipped": true
             },
@@ -387,8 +387,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('validate_screen_name_with_spaces', '', '');",
               "err": {},
-              "uuid": "7b484230-7c3b-4d82-bf32-e90cd8e4f0ed",
-              "parentUUID": "9c2e705c-c9fc-49ee-adc1-08ebe998e442",
+              "uuid": "a0d54a4b-ea7f-4496-9636-4fc2262e1025",
+              "parentUUID": "994159b8-e956-4412-881e-89021f805dcf",
               "isHook": false,
               "skipped": true
             },
@@ -405,8 +405,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('disable_update_button', '', '');",
               "err": {},
-              "uuid": "04cef627-b7f7-44db-8506-193ad7359359",
-              "parentUUID": "9c2e705c-c9fc-49ee-adc1-08ebe998e442",
+              "uuid": "313b3ab7-6a31-4fce-b266-77f6eae0c0d8",
+              "parentUUID": "994159b8-e956-4412-881e-89021f805dcf",
               "isHook": false,
               "skipped": true
             },
@@ -423,8 +423,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('risky');",
               "err": {},
-              "uuid": "db3a2239-3d12-43dc-ba89-aafc9fbff619",
-              "parentUUID": "9c2e705c-c9fc-49ee-adc1-08ebe998e442",
+              "uuid": "9d430ba8-c40b-4eef-bb6e-dbfb318d3d92",
+              "parentUUID": "994159b8-e956-4412-881e-89021f805dcf",
               "isHook": false,
               "skipped": true
             },
@@ -441,8 +441,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('weak');",
               "err": {},
-              "uuid": "791bc3cb-8e9b-419c-b38e-6092629b2361",
-              "parentUUID": "9c2e705c-c9fc-49ee-adc1-08ebe998e442",
+              "uuid": "57f002e3-c01e-43e4-b19e-9a39d2074bda",
+              "parentUUID": "994159b8-e956-4412-881e-89021f805dcf",
               "isHook": false,
               "skipped": true
             },
@@ -459,8 +459,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('fair');",
               "err": {},
-              "uuid": "cf4b4627-26e7-4ea3-ba9d-f7563750b7ef",
-              "parentUUID": "9c2e705c-c9fc-49ee-adc1-08ebe998e442",
+              "uuid": "37d9133a-e54c-4ef6-bcb7-6321c6f49bd2",
+              "parentUUID": "994159b8-e956-4412-881e-89021f805dcf",
               "isHook": false,
               "skipped": true
             },
@@ -477,8 +477,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('good');",
               "err": {},
-              "uuid": "f0229272-0bbb-4c2b-8e83-1ffa0838e226",
-              "parentUUID": "9c2e705c-c9fc-49ee-adc1-08ebe998e442",
+              "uuid": "d42eb7b8-96a6-4790-8a8a-0ea5e1c76352",
+              "parentUUID": "994159b8-e956-4412-881e-89021f805dcf",
               "isHook": false,
               "skipped": true
             },
@@ -495,8 +495,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('strong');",
               "err": {},
-              "uuid": "f7df22e1-d92e-4b96-bf2a-d9efeaaca8bf",
-              "parentUUID": "9c2e705c-c9fc-49ee-adc1-08ebe998e442",
+              "uuid": "b50c42e8-0a91-496e-915f-bbd2c66e81f5",
+              "parentUUID": "994159b8-e956-4412-881e-89021f805dcf",
               "isHook": false,
               "skipped": true
             }
@@ -504,30 +504,30 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "4b881a74-26c5-4e2b-baba-e3e8403bb24a"
+            "cab5909c-edd3-465b-a756-561231161520"
           ],
           "pending": [],
           "skipped": [
-            "d2ca42c5-3db9-424d-a62f-8e440a5f59b1",
-            "d6bf759c-2240-49c0-9f81-5ea5eb27ebe8",
-            "d987384f-9aef-480b-9f65-87864cbe9c55",
-            "c0761d94-ba19-42e2-8122-7dfa4f287f40",
-            "65ec4466-e95d-4a13-b469-b57948f6044a",
-            "ae6e9e6a-6a44-4806-9a3c-b1d87fd200bd",
-            "08eb9ecc-537f-458b-bc12-995cc563904a",
-            "428bc143-49f1-4ec1-aa8a-537ab2042207",
-            "41089f7f-de28-4dce-b5ae-14c6e880ce9c",
-            "ae4f467d-59a1-439a-8703-ac25152baf45",
-            "c7f3d918-8886-46bc-9663-d29db352aebd",
-            "7b484230-7c3b-4d82-bf32-e90cd8e4f0ed",
-            "04cef627-b7f7-44db-8506-193ad7359359",
-            "db3a2239-3d12-43dc-ba89-aafc9fbff619",
-            "791bc3cb-8e9b-419c-b38e-6092629b2361",
-            "cf4b4627-26e7-4ea3-ba9d-f7563750b7ef",
-            "f0229272-0bbb-4c2b-8e83-1ffa0838e226",
-            "f7df22e1-d92e-4b96-bf2a-d9efeaaca8bf"
+            "b842dabe-b940-4f4d-b9a8-d3b89c684190",
+            "f021656e-bb23-4db6-93e2-d7ba954951ec",
+            "c56aa825-f230-4e37-a55b-3fec44b300d3",
+            "5657a1f9-4b11-48a2-9af3-0a5e67f48b37",
+            "9db42bf8-f945-47c6-a682-e2f366f9504a",
+            "fa288b99-a1dc-4da7-901a-76d9da20492d",
+            "602ff5cd-4910-493a-94c2-f9c0c0a4e870",
+            "00894440-5021-4069-82ac-71be97e4d0b1",
+            "b13a87ef-61c7-468e-8b9a-b1df425f56ff",
+            "ab1a0718-5008-4d24-bbf5-a242d76de476",
+            "6d5b8408-0401-4e13-b895-50415cfc8e3a",
+            "a0d54a4b-ea7f-4496-9636-4fc2262e1025",
+            "313b3ab7-6a31-4fce-b266-77f6eae0c0d8",
+            "9d430ba8-c40b-4eef-bb6e-dbfb318d3d92",
+            "57f002e3-c01e-43e4-b19e-9a39d2074bda",
+            "37d9133a-e54c-4ef6-bcb7-6321c6f49bd2",
+            "d42eb7b8-96a6-4790-8a8a-0ea5e1c76352",
+            "b50c42e8-0a91-496e-915f-bbd2c66e81f5"
           ],
-          "duration": 34504,
+          "duration": 34464,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -543,7 +543,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "55a11d75-8d75-46da-87fc-e1d32706732c",
+      "uuid": "f0f7fc9f-6879-45bf-995b-2003b8b3463d",
       "title": "",
       "fullFile": "cypress\\e2e\\hipaa-comp\\employee\\my-dashboard\\employee_dark_web.cy.ts",
       "file": "cypress\\e2e\\hipaa-comp\\employee\\my-dashboard\\employee_dark_web.cy.ts",
@@ -552,7 +552,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "ce066609-1ecb-47ea-a218-6403041c4e0b",
+          "uuid": "1e24d9a7-764c-4657-8d47-a27db6cdf1e1",
           "title": "HIPAA COMP : Employee : Dashboard : Dark Web - Run DWBA",
           "fullFile": "",
           "file": "",
@@ -576,7 +576,7 @@
                 "estack": "CypressError: `cy.click()` failed because it requires a DOM element.\n\nNo elements in the current DOM matched your query:\n\n  > cy.get([data-ga-button=\"Logout\"])\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at isElement (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:145307:62)\n    at validateType (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:145165:14)\n    at Object.isType (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:145196:7)\n    at $Cy.pushSubject (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:138850:22)\n    at wrapped (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:138410:19)\nFrom Your Spec Code:\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:147:24)",
                 "diff": null
               },
-              "uuid": "836276c7-7bcc-4d16-b37f-d47e43d10d87",
+              "uuid": "f765a8e9-9171-4c92-981c-582dda30f35a",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -594,7 +594,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('text_contains');",
               "err": {},
-              "uuid": "97f3731d-7f89-42b0-9e80-68bc7397a5f7",
+              "uuid": "3a191232-c867-435d-be65-27117f5c7f7b",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -612,7 +612,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('generate_results');",
               "err": {},
-              "uuid": "7c8fef44-23d3-4a84-8a00-7ebfb86c82d0",
+              "uuid": "22c79bc6-3f63-431c-89b8-1c816468f016",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -630,7 +630,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('good_news');",
               "err": {},
-              "uuid": "a77e7e63-254c-4619-8b2c-dfcf02e3246c",
+              "uuid": "a094271c-c389-4046-8d3d-c3d31d0279c7",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -648,7 +648,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('empty_email_address');",
               "err": {},
-              "uuid": "944f2aef-8cc4-45ae-8be3-8000516c47bd",
+              "uuid": "fd717b21-bf1a-4c33-bc08-a8f03b6bd78a",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -666,7 +666,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('email_format');",
               "err": {},
-              "uuid": "013a91cd-298a-4e0c-bf82-daf8bb4c9a5e",
+              "uuid": "a451fdee-1f00-472e-ba41-942e82f27674",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -684,7 +684,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('generate_results');\nDARK_WEB.validateScenario('resetting_email');",
               "err": {},
-              "uuid": "524efd1e-0316-45e6-8c6f-72b823826e87",
+              "uuid": "8edf5db2-fd51-48e8-a41d-a9b2d9a66515",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -702,7 +702,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('reset_table_results');",
               "err": {},
-              "uuid": "bf64d31e-9baa-4d16-8d1e-99dabab07bfc",
+              "uuid": "7d3c8f00-1b64-4c25-ba7c-8a1b618abd46",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -720,7 +720,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('recheck_email_address');",
               "err": {},
-              "uuid": "3f335f0c-47ab-4cf6-b093-67583b7503a7",
+              "uuid": "0811e834-202a-4378-8560-00818ceb9a72",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -738,7 +738,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('column_sorting');",
               "err": {},
-              "uuid": "ca47019f-3798-4823-b2c2-f3311db62a0d",
+              "uuid": "94d43fc6-837c-4417-95bb-752052af8379",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -756,7 +756,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('compromised_data');",
               "err": {},
-              "uuid": "dc025f4b-bb8c-437a-8b92-e5bbdf68c63c",
+              "uuid": "de07409d-a6c1-4538-b041-04d8b8ffb5e0",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -765,20 +765,20 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "836276c7-7bcc-4d16-b37f-d47e43d10d87"
+            "f765a8e9-9171-4c92-981c-582dda30f35a"
           ],
           "pending": [],
           "skipped": [
-            "97f3731d-7f89-42b0-9e80-68bc7397a5f7",
-            "7c8fef44-23d3-4a84-8a00-7ebfb86c82d0",
-            "a77e7e63-254c-4619-8b2c-dfcf02e3246c",
-            "944f2aef-8cc4-45ae-8be3-8000516c47bd",
-            "013a91cd-298a-4e0c-bf82-daf8bb4c9a5e",
-            "524efd1e-0316-45e6-8c6f-72b823826e87",
-            "bf64d31e-9baa-4d16-8d1e-99dabab07bfc",
-            "3f335f0c-47ab-4cf6-b093-67583b7503a7",
-            "ca47019f-3798-4823-b2c2-f3311db62a0d",
-            "dc025f4b-bb8c-437a-8b92-e5bbdf68c63c"
+            "3a191232-c867-435d-be65-27117f5c7f7b",
+            "22c79bc6-3f63-431c-89b8-1c816468f016",
+            "a094271c-c389-4046-8d3d-c3d31d0279c7",
+            "fd717b21-bf1a-4c33-bc08-a8f03b6bd78a",
+            "a451fdee-1f00-472e-ba41-942e82f27674",
+            "8edf5db2-fd51-48e8-a41d-a9b2d9a66515",
+            "7d3c8f00-1b64-4c25-ba7c-8a1b618abd46",
+            "0811e834-202a-4378-8560-00818ceb9a72",
+            "94d43fc6-837c-4417-95bb-752052af8379",
+            "de07409d-a6c1-4538-b041-04d8b8ffb5e0"
           ],
           "duration": 0,
           "root": false,
@@ -796,7 +796,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "efb5e750-eb54-482b-b664-e11100acb371",
+      "uuid": "f77b0f0b-2b91-4c57-a189-5cbae41b4a80",
       "title": "",
       "fullFile": "cypress\\e2e\\hipaa-comp\\employee\\my-dashboard\\employee_micro_training.cy.ts",
       "file": "cypress\\e2e\\hipaa-comp\\employee\\my-dashboard\\employee_micro_training.cy.ts",
@@ -805,7 +805,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "1b87fcc7-bb6f-4818-b0ff-588125bb7b49",
+          "uuid": "e6f6f2c4-d03d-4684-b8cd-38b2b204b799",
           "title": "HIPAA COMP : Employee : Dashboard : Micro Training",
           "fullFile": "",
           "file": "",
@@ -829,7 +829,7 @@
                 "estack": "CypressError: `cy.click()` failed because it requires a DOM element.\n\nNo elements in the current DOM matched your query:\n\n  > cy.get([data-ga-button=\"Logout\"])\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at isElement (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:145307:62)\n    at validateType (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:145165:14)\n    at Object.isType (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:145196:7)\n    at $Cy.pushSubject (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:138850:22)\n    at wrapped (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:138410:19)\nFrom Your Spec Code:\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:147:24)",
                 "diff": null
               },
-              "uuid": "e46f0cac-1807-41b8-b73c-415628471002",
+              "uuid": "0ae15b9b-2e5d-46fb-875a-81a82caf6026",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -847,7 +847,7 @@
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('default_texts');",
               "err": {},
-              "uuid": "8eb796c8-3cda-453b-8dde-d339c4b043ed",
+              "uuid": "e7fc4d99-b992-497c-a8fa-6f8e2f64e186",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -865,7 +865,7 @@
               "context": null,
               "code": "COMM_ELEMENTS.viewPageItems('200');\nMICRO_TRAINING.validateScenario('all_trainings');",
               "err": {},
-              "uuid": "5c6a8cdc-d6a1-4965-8586-0fbd0cfecabb",
+              "uuid": "9193d8f7-44ff-4f12-b9e7-3824681046c0",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -883,7 +883,7 @@
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('watch_trainings');",
               "err": {},
-              "uuid": "94f21c48-987a-457a-a2ce-7815930b5d29",
+              "uuid": "eb737ca6-9ff6-4e2b-81da-9c1bbefcc139",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -901,7 +901,7 @@
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('answered_trainings');\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
-              "uuid": "9cf3cf34-07fc-4a89-a667-f757dec652c7",
+              "uuid": "201aa58b-1370-49c3-8497-292819b1967d",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -919,7 +919,7 @@
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('submission');\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
-              "uuid": "32841205-417e-4aba-9e9a-0d35651bf992",
+              "uuid": "7b9dcdf8-1816-48ad-9963-03d231cdb97c",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -937,7 +937,7 @@
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('disable_submission');\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
-              "uuid": "564e2a5e-b266-4a85-b2b4-d9b463a23170",
+              "uuid": "5abdb037-c736-485d-81d7-c5efcd908155",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -955,7 +955,7 @@
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('select_answers');\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
-              "uuid": "146b59f3-c2ad-4403-b707-d4c8a1e2256e",
+              "uuid": "70b0fd9a-41a5-4cf9-9d6e-a0a123d063bd",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -973,7 +973,7 @@
               "context": null,
               "code": "COMM_ELEMENTS.paginationScenarios('viewPageBy', '25');",
               "err": {},
-              "uuid": "e83e5de4-7314-4696-80ee-90c932de0e00",
+              "uuid": "a1b5aaa0-2234-4b89-b789-b73adcc4e0f8",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -991,7 +991,7 @@
               "context": null,
               "code": "COMM_ELEMENTS.paginationScenarios('viewPageBy', '50');",
               "err": {},
-              "uuid": "d8c4932c-bd00-4e0e-9eb2-14fd4bfb7903",
+              "uuid": "1eafbcce-9db3-45fe-9d54-b50971e73c34",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1009,7 +1009,7 @@
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('validate-average');",
               "err": {},
-              "uuid": "f64dbb55-6acf-4336-a8c7-38680657424f",
+              "uuid": "cec9910e-a49e-4158-a668-0488bac7a036",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1027,7 +1027,7 @@
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('validate-quizes-taken');",
               "err": {},
-              "uuid": "fe4fd07f-df8f-423d-bb07-38e21af9ebd8",
+              "uuid": "a6824cd5-f2ae-44d5-9efe-0779f88f33ff",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1036,21 +1036,21 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "e46f0cac-1807-41b8-b73c-415628471002"
+            "0ae15b9b-2e5d-46fb-875a-81a82caf6026"
           ],
           "pending": [],
           "skipped": [
-            "8eb796c8-3cda-453b-8dde-d339c4b043ed",
-            "5c6a8cdc-d6a1-4965-8586-0fbd0cfecabb",
-            "94f21c48-987a-457a-a2ce-7815930b5d29",
-            "9cf3cf34-07fc-4a89-a667-f757dec652c7",
-            "32841205-417e-4aba-9e9a-0d35651bf992",
-            "564e2a5e-b266-4a85-b2b4-d9b463a23170",
-            "146b59f3-c2ad-4403-b707-d4c8a1e2256e",
-            "e83e5de4-7314-4696-80ee-90c932de0e00",
-            "d8c4932c-bd00-4e0e-9eb2-14fd4bfb7903",
-            "f64dbb55-6acf-4336-a8c7-38680657424f",
-            "fe4fd07f-df8f-423d-bb07-38e21af9ebd8"
+            "e7fc4d99-b992-497c-a8fa-6f8e2f64e186",
+            "9193d8f7-44ff-4f12-b9e7-3824681046c0",
+            "eb737ca6-9ff6-4e2b-81da-9c1bbefcc139",
+            "201aa58b-1370-49c3-8497-292819b1967d",
+            "7b9dcdf8-1816-48ad-9963-03d231cdb97c",
+            "5abdb037-c736-485d-81d7-c5efcd908155",
+            "70b0fd9a-41a5-4cf9-9d6e-a0a123d063bd",
+            "a1b5aaa0-2234-4b89-b789-b73adcc4e0f8",
+            "1eafbcce-9db3-45fe-9d54-b50971e73c34",
+            "cec9910e-a49e-4158-a668-0488bac7a036",
+            "a6824cd5-f2ae-44d5-9efe-0779f88f33ff"
           ],
           "duration": 0,
           "root": false,
@@ -1068,7 +1068,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "319ac200-4563-431f-8f08-e0e1782a8ddf",
+      "uuid": "99f6bd8e-414c-4d3c-bd6e-06fb605ff9d9",
       "title": "",
       "fullFile": "cypress\\e2e\\hipaa-comp\\employee\\my-dashboard\\employee_newsletters.cy.ts",
       "file": "cypress\\e2e\\hipaa-comp\\employee\\my-dashboard\\employee_newsletters.cy.ts",
@@ -1077,7 +1077,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "bf7d0def-49de-4896-bca0-3e3459d3a290",
+          "uuid": "0127a8f0-d459-4f3e-81a9-b2cbdbff692c",
           "title": "HIPAA COMP : Employee : Dashboard : Newsletters",
           "fullFile": "",
           "file": "",
@@ -1101,7 +1101,7 @@
                 "estack": "CypressError: `cy.click()` failed because it requires a DOM element.\n\nNo elements in the current DOM matched your query:\n\n  > cy.get([data-ga-button=\"Logout\"])\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at isElement (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:145307:62)\n    at validateType (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:145165:14)\n    at Object.isType (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:145196:7)\n    at $Cy.pushSubject (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:138850:22)\n    at wrapped (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:138410:19)\nFrom Your Spec Code:\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:147:24)",
                 "diff": null
               },
-              "uuid": "69496c05-123a-4248-846c-51233fd4e2f8",
+              "uuid": "777d4654-50f1-4f67-9e17-28e0ff7a34ca",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -1119,7 +1119,7 @@
               "context": null,
               "code": "NEWSLETTER.validateScenario('default_texts');",
               "err": {},
-              "uuid": "03d942ca-15ca-4429-8e6e-af3226b51720",
+              "uuid": "d604de42-7acb-4705-87c8-3f823b42e151",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1137,7 +1137,7 @@
               "context": null,
               "code": "NEWSLETTER.validateScenario('download_newsletter_pdf');",
               "err": {},
-              "uuid": "9c7ed7c4-ec73-4dfc-8d00-8dbc42bed19b",
+              "uuid": "3fe5d0b3-588b-464d-8df0-fe54b7dd6640",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1146,12 +1146,12 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "69496c05-123a-4248-846c-51233fd4e2f8"
+            "777d4654-50f1-4f67-9e17-28e0ff7a34ca"
           ],
           "pending": [],
           "skipped": [
-            "03d942ca-15ca-4429-8e6e-af3226b51720",
-            "9c7ed7c4-ec73-4dfc-8d00-8dbc42bed19b"
+            "d604de42-7acb-4705-87c8-3f823b42e151",
+            "3fe5d0b3-588b-464d-8df0-fe54b7dd6640"
           ],
           "duration": 0,
           "root": false,
@@ -1169,7 +1169,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "a6008029-7f6f-476d-a366-c6919cc98740",
+      "uuid": "c773f290-dfb4-4cdf-95c7-f84781f79105",
       "title": "",
       "fullFile": "cypress\\e2e\\hipaa-comp\\employee\\my-dashboard\\employee_policies.cy.ts",
       "file": "cypress\\e2e\\hipaa-comp\\employee\\my-dashboard\\employee_policies.cy.ts",
@@ -1178,7 +1178,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "f084bf11-5946-43da-88c5-47852037dd09",
+          "uuid": "e19f12bc-4e37-4423-a7ef-4c496dfec96f",
           "title": "HIPAA COMP : Employee : Dashboard : Policy & Procedure",
           "fullFile": "",
           "file": "",
@@ -1202,7 +1202,7 @@
                 "estack": "CypressError: `cy.click()` failed because it requires a DOM element.\n\nNo elements in the current DOM matched your query:\n\n  > cy.get([data-ga-button=\"Logout\"])\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at isElement (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:145307:62)\n    at validateType (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:145165:14)\n    at Object.isType (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:145196:7)\n    at $Cy.pushSubject (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:138850:22)\n    at wrapped (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:138410:19)\nFrom Your Spec Code:\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:147:24)",
                 "diff": null
               },
-              "uuid": "2c6663ea-88a0-4f71-9d9c-bf07c2d2e80b",
+              "uuid": "57249b11-31d5-4890-8a1e-720fe09fa4c0",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -1220,7 +1220,7 @@
               "context": null,
               "code": "POLICIES.policyTypes('policies', 'existing_policies', 'HIPAA_COMP');",
               "err": {},
-              "uuid": "9b978e2b-d891-4b15-921f-6a795c452453",
+              "uuid": "6b45b059-78fa-41f3-9375-c1625755b909",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1238,7 +1238,7 @@
               "context": null,
               "code": "POLICIES.policyTypes('policies', 'validate_api_status', 'HIPAA_COMP');\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
-              "uuid": "94419664-17ab-4440-a3a8-b142bebcada7",
+              "uuid": "f1a5bef4-18d5-445f-ac88-52548073c29b",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1256,7 +1256,7 @@
               "context": null,
               "code": "POLICIES.viewModalOtherPolicy('policies');\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
-              "uuid": "e232b67e-3ffe-4389-9f21-553d5d47a314",
+              "uuid": "e9695e0f-34aa-48ed-9df6-14bce40cbb74",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1265,13 +1265,13 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "2c6663ea-88a0-4f71-9d9c-bf07c2d2e80b"
+            "57249b11-31d5-4890-8a1e-720fe09fa4c0"
           ],
           "pending": [],
           "skipped": [
-            "9b978e2b-d891-4b15-921f-6a795c452453",
-            "94419664-17ab-4440-a3a8-b142bebcada7",
-            "e232b67e-3ffe-4389-9f21-553d5d47a314"
+            "6b45b059-78fa-41f3-9375-c1625755b909",
+            "f1a5bef4-18d5-445f-ac88-52548073c29b",
+            "e9695e0f-34aa-48ed-9df6-14bce40cbb74"
           ],
           "duration": 0,
           "root": false,
@@ -1289,7 +1289,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "7c39cc77-4045-4e62-8eab-9f9d6846a000",
+      "uuid": "0884e8f3-f498-41c0-bc68-d89896698c8e",
       "title": "",
       "fullFile": "cypress\\e2e\\hipaa-comp\\employee\\my-dashboard\\employee_training.cy.ts",
       "file": "cypress\\e2e\\hipaa-comp\\employee\\my-dashboard\\employee_training.cy.ts",
@@ -1298,7 +1298,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "e8dab694-b16a-46c7-a565-abe368b8a671",
+          "uuid": "13ea1d02-33b9-4df5-8332-90ff6ea40688",
           "title": "HIPAA COMP : Employee : Dashboard : Training",
           "fullFile": "",
           "file": "",
@@ -1322,7 +1322,7 @@
                 "estack": "CypressError: `cy.click()` failed because it requires a DOM element.\n\nNo elements in the current DOM matched your query:\n\n  > cy.get([data-ga-button=\"Logout\"])\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at isElement (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:145307:62)\n    at validateType (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:145165:14)\n    at Object.isType (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:145196:7)\n    at $Cy.pushSubject (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:138850:22)\n    at wrapped (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:138410:19)\nFrom Your Spec Code:\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:147:24)",
                 "diff": null
               },
-              "uuid": "92da4213-7f01-4a6e-b926-dd90bb44874f",
+              "uuid": "130970cd-54aa-4bf8-9d16-035b4bc92305",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -1340,7 +1340,7 @@
               "context": null,
               "code": "TRAINING.completedCourses('default_texts');",
               "err": {},
-              "uuid": "35676b60-5371-4782-ae46-a7e7f14c2de0",
+              "uuid": "1531c84c-10d8-4ab8-8076-b61b4bdea0dc",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1358,7 +1358,7 @@
               "context": null,
               "code": "TRAINING.completedCourses('security_training_videos');",
               "err": {},
-              "uuid": "bdd882cf-fe22-461b-ba30-c53d0c90de85",
+              "uuid": "45e27d7f-42fb-4693-b7a3-857409dd74d2",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1376,7 +1376,7 @@
               "context": null,
               "code": "TRAINING.completedCourses('complete_security_quiz');",
               "err": {},
-              "uuid": "acb737f8-0300-4966-a81a-8a6466b24db0",
+              "uuid": "ddb75467-fefa-4e54-94cf-11af0405af33",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1394,7 +1394,7 @@
               "context": null,
               "code": "TRAINING.completedCourses('review_security_quiz');",
               "err": {},
-              "uuid": "c70de71a-8ff9-4c5f-a2a5-acfefc1408c0",
+              "uuid": "06e4d926-4e64-4171-97ff-e0d42ca70fa8",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1412,7 +1412,7 @@
               "context": null,
               "code": "TRAINING.completedCourses('print_certificate');",
               "err": {},
-              "uuid": "591ea6eb-b2dc-4fd2-9ef1-ef083849c2c1",
+              "uuid": "83785872-2bae-44f5-9e37-79e8a5aa5415",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1430,7 +1430,7 @@
               "context": null,
               "code": "TRAINING.enrolledCourses();",
               "err": {},
-              "uuid": "a56f39b8-f513-4ce4-86e8-fed5869ad679",
+              "uuid": "653a98b5-286a-46c9-910a-100704fb12bc",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1439,16 +1439,16 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "92da4213-7f01-4a6e-b926-dd90bb44874f"
+            "130970cd-54aa-4bf8-9d16-035b4bc92305"
           ],
           "pending": [],
           "skipped": [
-            "35676b60-5371-4782-ae46-a7e7f14c2de0",
-            "bdd882cf-fe22-461b-ba30-c53d0c90de85",
-            "acb737f8-0300-4966-a81a-8a6466b24db0",
-            "c70de71a-8ff9-4c5f-a2a5-acfefc1408c0",
-            "591ea6eb-b2dc-4fd2-9ef1-ef083849c2c1",
-            "a56f39b8-f513-4ce4-86e8-fed5869ad679"
+            "1531c84c-10d8-4ab8-8076-b61b4bdea0dc",
+            "45e27d7f-42fb-4693-b7a3-857409dd74d2",
+            "ddb75467-fefa-4e54-94cf-11af0405af33",
+            "06e4d926-4e64-4171-97ff-e0d42ca70fa8",
+            "83785872-2bae-44f5-9e37-79e8a5aa5415",
+            "653a98b5-286a-46c9-910a-100704fb12bc"
           ],
           "duration": 0,
           "root": false,
@@ -1466,7 +1466,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "9805f69b-c05a-4a7c-a184-ff5270bd10aa",
+      "uuid": "12cdca62-dfa8-43a9-8334-f920e69e0358",
       "title": "",
       "fullFile": "cypress\\e2e\\hipaa-comp\\employee\\newsfeed\\common_scenarios.cy.ts",
       "file": "cypress\\e2e\\hipaa-comp\\employee\\newsfeed\\common_scenarios.cy.ts",
@@ -1475,7 +1475,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "9c706fa5-90ea-4234-87d7-ab56d26c90e4",
+          "uuid": "37f5b2a9-2148-4e4b-8078-df6518bd00a0",
           "title": "HIPAA COMP :  Employee : Newsfeed : Notifications",
           "fullFile": "",
           "file": "",
@@ -1499,7 +1499,7 @@
                 "estack": "CypressError: `cy.click()` failed because it requires a DOM element.\n\nNo elements in the current DOM matched your query:\n\n  > cy.get([data-ga-button=\"Logout\"])\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at isElement (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:145307:62)\n    at validateType (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:145165:14)\n    at Object.isType (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:145196:7)\n    at $Cy.pushSubject (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:138850:22)\n    at wrapped (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:138410:19)\nFrom Your Spec Code:\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:147:24)",
                 "diff": null
               },
-              "uuid": "cf730558-69a1-4c8a-891f-058bf5739ea7",
+              "uuid": "0626b61c-fd88-40a3-bc30-46d541137051",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -1517,7 +1517,7 @@
               "context": null,
               "code": "NEWSFEED.commonScenarios('validate-notifications');",
               "err": {},
-              "uuid": "1b1d7263-c62b-4eb8-8193-b610579fdcd2",
+              "uuid": "67c6f401-c577-42a1-aa36-28bec8442f78",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1535,7 +1535,7 @@
               "context": null,
               "code": "NEWSFEED.commonScenarios('validate-mark-all-read');",
               "err": {},
-              "uuid": "a007d49e-20a9-4594-bb3a-f0cb2d56d1c7",
+              "uuid": "81a90804-9903-40ef-972f-e2b3bb3183b4",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1553,7 +1553,7 @@
               "context": null,
               "code": "NEWSFEED.commonScenarios('validate-click-notification');",
               "err": {},
-              "uuid": "01482afa-7753-4c21-98e6-e7379211fa5f",
+              "uuid": "4e71bb80-3a7f-4dd1-95c3-5a327c757f6c",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1562,13 +1562,13 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "cf730558-69a1-4c8a-891f-058bf5739ea7"
+            "0626b61c-fd88-40a3-bc30-46d541137051"
           ],
           "pending": [],
           "skipped": [
-            "1b1d7263-c62b-4eb8-8193-b610579fdcd2",
-            "a007d49e-20a9-4594-bb3a-f0cb2d56d1c7",
-            "01482afa-7753-4c21-98e6-e7379211fa5f"
+            "67c6f401-c577-42a1-aa36-28bec8442f78",
+            "81a90804-9903-40ef-972f-e2b3bb3183b4",
+            "4e71bb80-3a7f-4dd1-95c3-5a327c757f6c"
           ],
           "duration": 0,
           "root": false,
@@ -1586,7 +1586,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "3f563cfb-32c0-4301-9fec-53da63d66dfe",
+      "uuid": "64f770c0-751d-41cf-86ab-607cf62f0cd6",
       "title": "",
       "fullFile": "cypress\\e2e\\hipaa-comp\\employee\\newsfeed\\filter.cy.ts",
       "file": "cypress\\e2e\\hipaa-comp\\employee\\newsfeed\\filter.cy.ts",
@@ -1595,7 +1595,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "34d8ceb7-790f-4a5b-b1cf-2ffa0725527f",
+          "uuid": "1be47468-b125-4ae7-84d2-4ebc3a845255",
           "title": "HIPAA COMP :  Employee : Newsfeed : Filters",
           "fullFile": "",
           "file": "",
@@ -1619,7 +1619,7 @@
                 "estack": "CypressError: `cy.click()` failed because it requires a DOM element.\n\nNo elements in the current DOM matched your query:\n\n  > cy.get([data-ga-button=\"Logout\"])\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at isElement (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:145307:62)\n    at validateType (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:145165:14)\n    at Object.isType (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:145196:7)\n    at $Cy.pushSubject (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:138850:22)\n    at wrapped (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:138410:19)\nFrom Your Spec Code:\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:147:24)",
                 "diff": null
               },
-              "uuid": "1635cc9c-2e0c-4429-9b07-d280406e96b3",
+              "uuid": "507ff876-7f05-4318-afbf-267fd1dd9d99",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -1637,7 +1637,7 @@
               "context": null,
               "code": "NEWSFEED.filter('validate-filter-microtraining');",
               "err": {},
-              "uuid": "defe4a57-48ce-417a-ad56-26b2a581bee2",
+              "uuid": "675a63bf-7242-44cc-8aa4-f3101e8ef023",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1655,7 +1655,7 @@
               "context": null,
               "code": "NEWSFEED.filter('validate-filter-newsletters');",
               "err": {},
-              "uuid": "933e9dbd-ac6f-46dc-bc45-ffdb74ff2f1a",
+              "uuid": "8e99f88d-00e8-4127-ae3f-dcf34be1af16",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1673,7 +1673,7 @@
               "context": null,
               "code": "NEWSFEED.filter('validate-invalid-publish');",
               "err": {},
-              "uuid": "200d9ecd-7866-4beb-ae18-1cec8ee55ca1",
+              "uuid": "c6eadcf5-baf8-48ea-865a-c98b2290b89c",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1691,7 +1691,7 @@
               "context": null,
               "code": "NEWSFEED.filter('validate-remove-filter');",
               "err": {},
-              "uuid": "201768c7-4452-44a0-b8c6-8ecc443e09a2",
+              "uuid": "e86f9550-4d6e-45f7-a9ce-b43fee2c8922",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1700,14 +1700,14 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "1635cc9c-2e0c-4429-9b07-d280406e96b3"
+            "507ff876-7f05-4318-afbf-267fd1dd9d99"
           ],
           "pending": [],
           "skipped": [
-            "defe4a57-48ce-417a-ad56-26b2a581bee2",
-            "933e9dbd-ac6f-46dc-bc45-ffdb74ff2f1a",
-            "200d9ecd-7866-4beb-ae18-1cec8ee55ca1",
-            "201768c7-4452-44a0-b8c6-8ecc443e09a2"
+            "675a63bf-7242-44cc-8aa4-f3101e8ef023",
+            "8e99f88d-00e8-4127-ae3f-dcf34be1af16",
+            "c6eadcf5-baf8-48ea-865a-c98b2290b89c",
+            "e86f9550-4d6e-45f7-a9ce-b43fee2c8922"
           ],
           "duration": 0,
           "root": false,
@@ -1725,7 +1725,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "0a949f32-271b-4155-be37-9b70999393d4",
+      "uuid": "52ece0bf-179c-4086-b982-e08f0bd21488",
       "title": "",
       "fullFile": "cypress\\e2e\\hipaa-comp\\employee\\newsfeed\\search.cy.ts",
       "file": "cypress\\e2e\\hipaa-comp\\employee\\newsfeed\\search.cy.ts",
@@ -1734,7 +1734,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "1f871d06-fb65-4304-bdf2-9b8cee13e984",
+          "uuid": "7ac0f71b-7ead-4e7b-9ff8-ab03787e0427",
           "title": "HIPAA COMP :  Employee : Newsfeed : Search",
           "fullFile": "",
           "file": "",
@@ -1758,7 +1758,7 @@
                 "estack": "CypressError: `cy.click()` failed because it requires a DOM element.\n\nNo elements in the current DOM matched your query:\n\n  > cy.get([data-ga-button=\"Logout\"])\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at isElement (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:145307:62)\n    at validateType (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:145165:14)\n    at Object.isType (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:145196:7)\n    at $Cy.pushSubject (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:138850:22)\n    at wrapped (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:138410:19)\nFrom Your Spec Code:\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:147:24)",
                 "diff": null
               },
-              "uuid": "ce76ea87-80c4-4d18-9f89-4ba448bd92e4",
+              "uuid": "22d0df63-9fa2-4e7a-8d66-37181510e5fc",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -1776,7 +1776,7 @@
               "context": null,
               "code": "NEWSFEED.search('last-activity', 'User');",
               "err": {},
-              "uuid": "b3235a70-81ff-48eb-b962-3f35aa28382f",
+              "uuid": "28bf98ec-cfca-437e-a4f9-2b0d97cc87a2",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1785,11 +1785,11 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "ce76ea87-80c4-4d18-9f89-4ba448bd92e4"
+            "22d0df63-9fa2-4e7a-8d66-37181510e5fc"
           ],
           "pending": [],
           "skipped": [
-            "b3235a70-81ff-48eb-b962-3f35aa28382f"
+            "28bf98ec-cfca-437e-a4f9-2b0d97cc87a2"
           ],
           "duration": 0,
           "root": false,

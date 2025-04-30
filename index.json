@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 0,
     "failures": 10,
-    "start": "2025-04-29T00:28:11.902Z",
-    "end": "2025-04-29T00:34:21.359Z",
-    "duration": 245995,
+    "start": "2025-04-29T22:06:43.239Z",
+    "end": "2025-04-29T22:13:12.106Z",
+    "duration": 258724,
     "testsRegistered": 80,
     "passPercent": 0,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "2b177b18-320b-44f6-bced-e2b9b0b3876e",
+      "uuid": "e30a4ee4-2a1c-48b4-9b34-5590afe5d1be",
       "title": "",
       "fullFile": "cypress\\e2e\\hipaa-comp\\employee\\contact_us.cy.ts",
       "file": "cypress\\e2e\\hipaa-comp\\employee\\contact_us.cy.ts",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "b2dcefc7-2067-4933-b3b0-7bed57a614c8",
+          "uuid": "b0b748e0-fe34-4416-8da2-22926d036204",
           "title": "HIPAA COMP : Employee : Dashboard : Contact Us",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Default items should visible",
               "fullTitle": "HIPAA COMP : Employee : Dashboard : Contact Us Default items should visible",
               "timedOut": null,
-              "duration": 23645,
+              "duration": 26102,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -51,7 +51,7 @@
                 "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `dashboard-details`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before all` hook we are skipping all of the remaining tests.\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137446:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137472:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145828:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145769:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)",
                 "diff": null
               },
-              "uuid": "5cffd191-537e-4491-b01c-59e3842d7235",
+              "uuid": "770804ef-cf0c-446e-9ff5-00f708501322",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -69,7 +69,7 @@
               "context": null,
               "code": "CONTACT_US.verifyTextsIfContains();",
               "err": {},
-              "uuid": "5fc02f0b-19e7-4a0a-8670-d841c1a88b07",
+              "uuid": "cea45019-2c6c-4511-9984-aeb9cf419d51",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -87,7 +87,7 @@
               "context": null,
               "code": "CONTACT_US.cancelSubmission();",
               "err": {},
-              "uuid": "01764530-2b29-4913-8622-3a521f3f0d2d",
+              "uuid": "a5d2a0ad-1d03-4c8e-ab7b-3e9bb6801ee4",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -105,7 +105,7 @@
               "context": null,
               "code": "SIDE_NAV_BAR.editProfile();\nCONTACT_US.viewContactUsTab();\nCONTACT_US.submitContactUs();",
               "err": {},
-              "uuid": "4aef1ef7-0f75-4794-8f24-d19411ca2b8c",
+              "uuid": "6edf21d1-d2dd-4f22-9c5d-3cb6e7af00dc",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -114,15 +114,15 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "5cffd191-537e-4491-b01c-59e3842d7235"
+            "770804ef-cf0c-446e-9ff5-00f708501322"
           ],
           "pending": [],
           "skipped": [
-            "5fc02f0b-19e7-4a0a-8670-d841c1a88b07",
-            "01764530-2b29-4913-8622-3a521f3f0d2d",
-            "4aef1ef7-0f75-4794-8f24-d19411ca2b8c"
+            "cea45019-2c6c-4511-9984-aeb9cf419d51",
+            "a5d2a0ad-1d03-4c8e-ab7b-3e9bb6801ee4",
+            "6edf21d1-d2dd-4f22-9c5d-3cb6e7af00dc"
           ],
-          "duration": 23645,
+          "duration": 26102,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -138,7 +138,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "225760fd-5afa-4c7d-bb58-df3e44605971",
+      "uuid": "5653aeba-09ba-46b6-90fc-3cd3d0f88eeb",
       "title": "",
       "fullFile": "cypress\\e2e\\hipaa-comp\\employee\\profile.cy.ts",
       "file": "cypress\\e2e\\hipaa-comp\\employee\\profile.cy.ts",
@@ -147,7 +147,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "8b2bf3ef-ec28-42c7-b743-5163b11b108c",
+          "uuid": "eead5af3-89c4-42ee-a8ff-c1366f5e1cae",
           "title": "HIPAA COMP : Employee : General",
           "fullFile": "",
           "file": "",
@@ -158,7 +158,7 @@
               "title": "Application Menu : Default items should visible",
               "fullTitle": "HIPAA COMP : Employee : General Application Menu : Default items should visible",
               "timedOut": null,
-              "duration": 24943,
+              "duration": 27269,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -171,8 +171,8 @@
                 "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `dashboard-details`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before all` hook we are skipping the remaining tests in the current suite: `HIPAA COMP : Employee : Gen...`\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137446:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137472:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145828:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145769:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)",
                 "diff": null
               },
-              "uuid": "6234a174-985d-4ad6-bab4-21b8a1535252",
-              "parentUUID": "8b2bf3ef-ec28-42c7-b743-5163b11b108c",
+              "uuid": "81088926-0703-4b70-ba97-e3f991ae307c",
+              "parentUUID": "eead5af3-89c4-42ee-a8ff-c1366f5e1cae",
               "isHook": false,
               "skipped": false
             },
@@ -189,8 +189,8 @@
               "context": null,
               "code": "SIDE_NAV_BAR.verifyTextsIfContains('E');",
               "err": {},
-              "uuid": "8da07f34-341a-4ba6-a245-ee0e6fe7c241",
-              "parentUUID": "8b2bf3ef-ec28-42c7-b743-5163b11b108c",
+              "uuid": "2f13d22f-e2ed-4c51-9cb2-8c75b582b599",
+              "parentUUID": "eead5af3-89c4-42ee-a8ff-c1366f5e1cae",
               "isHook": false,
               "skipped": true
             },
@@ -207,8 +207,8 @@
               "context": null,
               "code": "SIDE_NAV_BAR.favoriteApp('assertAll');",
               "err": {},
-              "uuid": "1886c1d7-f8be-4198-bd5b-a4fd7cf514cb",
-              "parentUUID": "8b2bf3ef-ec28-42c7-b743-5163b11b108c",
+              "uuid": "413ce956-fe45-419f-82a1-e00b4dcd07c6",
+              "parentUUID": "eead5af3-89c4-42ee-a8ff-c1366f5e1cae",
               "isHook": false,
               "skipped": true
             },
@@ -225,8 +225,8 @@
               "context": null,
               "code": "SIDE_NAV_BAR.editProfile();\nMY_PROFILE.verifyItemsIfExist('HIPAA_COMP', 'E');",
               "err": {},
-              "uuid": "d8febcdf-b03f-4be3-9008-e3fa1e1210bc",
-              "parentUUID": "8b2bf3ef-ec28-42c7-b743-5163b11b108c",
+              "uuid": "44ebaf51-1035-413e-8035-1ab17d3cdb3a",
+              "parentUUID": "eead5af3-89c4-42ee-a8ff-c1366f5e1cae",
               "isHook": false,
               "skipped": true
             },
@@ -243,8 +243,8 @@
               "context": null,
               "code": "MY_PROFILE.verifyTextsIfContains('HIPAA_COMP', 'E');",
               "err": {},
-              "uuid": "97ec37b5-ef16-4dc1-91a2-ad73477449ee",
-              "parentUUID": "8b2bf3ef-ec28-42c7-b743-5163b11b108c",
+              "uuid": "c467cff4-204b-4eec-bc11-8f8a443226ef",
+              "parentUUID": "eead5af3-89c4-42ee-a8ff-c1366f5e1cae",
               "isHook": false,
               "skipped": true
             },
@@ -261,8 +261,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('update_basic_info', '', 'E');",
               "err": {},
-              "uuid": "6e501d03-50df-4cab-b446-04d09be70a68",
-              "parentUUID": "8b2bf3ef-ec28-42c7-b743-5163b11b108c",
+              "uuid": "96d9c83b-30d8-4d59-9167-9afc8a3375dd",
+              "parentUUID": "eead5af3-89c4-42ee-a8ff-c1366f5e1cae",
               "isHook": false,
               "skipped": true
             },
@@ -279,8 +279,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('clear_all_fields', '', '');",
               "err": {},
-              "uuid": "b0900ea1-6d3b-4e5a-bc8e-18349ecbc669",
-              "parentUUID": "8b2bf3ef-ec28-42c7-b743-5163b11b108c",
+              "uuid": "139179dd-4963-40a7-8ba4-67618c538b9d",
+              "parentUUID": "eead5af3-89c4-42ee-a8ff-c1366f5e1cae",
               "isHook": false,
               "skipped": true
             },
@@ -297,8 +297,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('un_matched_password', '', '');",
               "err": {},
-              "uuid": "79a264e3-4107-4159-a3cc-38b22e938eb1",
-              "parentUUID": "8b2bf3ef-ec28-42c7-b743-5163b11b108c",
+              "uuid": "7a0e8a33-6e74-41c7-b731-606c53fb489b",
+              "parentUUID": "eead5af3-89c4-42ee-a8ff-c1366f5e1cae",
               "isHook": false,
               "skipped": true
             },
@@ -315,8 +315,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('validate_screen_name', '', '');",
               "err": {},
-              "uuid": "5bcca731-1b12-421b-97f5-c0a1174c4991",
-              "parentUUID": "8b2bf3ef-ec28-42c7-b743-5163b11b108c",
+              "uuid": "0292e9ea-0df9-4c38-b82e-b8dd0f19c606",
+              "parentUUID": "eead5af3-89c4-42ee-a8ff-c1366f5e1cae",
               "isHook": false,
               "skipped": true
             },
@@ -333,8 +333,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('validate_phone_number', '', '');",
               "err": {},
-              "uuid": "d0a89e99-d7e6-4765-a2f0-fb1952a48e34",
-              "parentUUID": "8b2bf3ef-ec28-42c7-b743-5163b11b108c",
+              "uuid": "0742c874-0593-4770-836b-7d362f1ec87a",
+              "parentUUID": "eead5af3-89c4-42ee-a8ff-c1366f5e1cae",
               "isHook": false,
               "skipped": true
             },
@@ -351,8 +351,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('validate_mobile_number', '', '');",
               "err": {},
-              "uuid": "704e4e16-9c6e-47a7-aabd-1ff12c489dd9",
-              "parentUUID": "8b2bf3ef-ec28-42c7-b743-5163b11b108c",
+              "uuid": "1ab35360-8dbd-4f64-8212-ab989f536510",
+              "parentUUID": "eead5af3-89c4-42ee-a8ff-c1366f5e1cae",
               "isHook": false,
               "skipped": true
             },
@@ -369,8 +369,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('validate_mobile_country_code', '', '');",
               "err": {},
-              "uuid": "91adb9c1-a4b7-4bff-b563-e2b8c17f3c16",
-              "parentUUID": "8b2bf3ef-ec28-42c7-b743-5163b11b108c",
+              "uuid": "4fdbed4e-8292-4dfd-b025-7c3abe5529aa",
+              "parentUUID": "eead5af3-89c4-42ee-a8ff-c1366f5e1cae",
               "isHook": false,
               "skipped": true
             },
@@ -387,8 +387,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('validate_screen_name_with_spaces', '', '');",
               "err": {},
-              "uuid": "a99161b9-cb7a-4b06-a361-f8fe477fc961",
-              "parentUUID": "8b2bf3ef-ec28-42c7-b743-5163b11b108c",
+              "uuid": "c88d2c8b-1f8f-43b7-b4b7-fc78d900f78b",
+              "parentUUID": "eead5af3-89c4-42ee-a8ff-c1366f5e1cae",
               "isHook": false,
               "skipped": true
             },
@@ -405,8 +405,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('disable_update_button', '', '');",
               "err": {},
-              "uuid": "4a1e456d-a1e4-4f73-9e60-5f0cf3770807",
-              "parentUUID": "8b2bf3ef-ec28-42c7-b743-5163b11b108c",
+              "uuid": "c2d8600a-5138-4b59-a43b-06dafc39fe2f",
+              "parentUUID": "eead5af3-89c4-42ee-a8ff-c1366f5e1cae",
               "isHook": false,
               "skipped": true
             },
@@ -423,8 +423,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('risky');",
               "err": {},
-              "uuid": "04235683-7339-42d1-832b-8ed42a4cd0da",
-              "parentUUID": "8b2bf3ef-ec28-42c7-b743-5163b11b108c",
+              "uuid": "651a2c25-e5d2-4065-9495-438ed819e135",
+              "parentUUID": "eead5af3-89c4-42ee-a8ff-c1366f5e1cae",
               "isHook": false,
               "skipped": true
             },
@@ -441,8 +441,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('weak');",
               "err": {},
-              "uuid": "7a49dad2-7850-4f3d-84e6-103eb2fd9c70",
-              "parentUUID": "8b2bf3ef-ec28-42c7-b743-5163b11b108c",
+              "uuid": "1942bc02-73c4-4020-8e57-4c247810db45",
+              "parentUUID": "eead5af3-89c4-42ee-a8ff-c1366f5e1cae",
               "isHook": false,
               "skipped": true
             },
@@ -459,8 +459,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('fair');",
               "err": {},
-              "uuid": "8d1c6589-f27a-43cc-92a1-1f7282ff90dc",
-              "parentUUID": "8b2bf3ef-ec28-42c7-b743-5163b11b108c",
+              "uuid": "8bdd3b9c-ecec-477c-9dd0-587004d8670a",
+              "parentUUID": "eead5af3-89c4-42ee-a8ff-c1366f5e1cae",
               "isHook": false,
               "skipped": true
             },
@@ -477,8 +477,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('good');",
               "err": {},
-              "uuid": "929371b0-fbd7-4e86-a045-840526169175",
-              "parentUUID": "8b2bf3ef-ec28-42c7-b743-5163b11b108c",
+              "uuid": "d797e451-32cf-4e40-b0cb-845502c83a15",
+              "parentUUID": "eead5af3-89c4-42ee-a8ff-c1366f5e1cae",
               "isHook": false,
               "skipped": true
             },
@@ -495,8 +495,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('strong');",
               "err": {},
-              "uuid": "f9a32c78-21a3-4965-97b0-36ca9f180b5f",
-              "parentUUID": "8b2bf3ef-ec28-42c7-b743-5163b11b108c",
+              "uuid": "b960151f-6f93-49a4-8e34-882687381076",
+              "parentUUID": "eead5af3-89c4-42ee-a8ff-c1366f5e1cae",
               "isHook": false,
               "skipped": true
             }
@@ -504,30 +504,30 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "6234a174-985d-4ad6-bab4-21b8a1535252"
+            "81088926-0703-4b70-ba97-e3f991ae307c"
           ],
           "pending": [],
           "skipped": [
-            "8da07f34-341a-4ba6-a245-ee0e6fe7c241",
-            "1886c1d7-f8be-4198-bd5b-a4fd7cf514cb",
-            "d8febcdf-b03f-4be3-9008-e3fa1e1210bc",
-            "97ec37b5-ef16-4dc1-91a2-ad73477449ee",
-            "6e501d03-50df-4cab-b446-04d09be70a68",
-            "b0900ea1-6d3b-4e5a-bc8e-18349ecbc669",
-            "79a264e3-4107-4159-a3cc-38b22e938eb1",
-            "5bcca731-1b12-421b-97f5-c0a1174c4991",
-            "d0a89e99-d7e6-4765-a2f0-fb1952a48e34",
-            "704e4e16-9c6e-47a7-aabd-1ff12c489dd9",
-            "91adb9c1-a4b7-4bff-b563-e2b8c17f3c16",
-            "a99161b9-cb7a-4b06-a361-f8fe477fc961",
-            "4a1e456d-a1e4-4f73-9e60-5f0cf3770807",
-            "04235683-7339-42d1-832b-8ed42a4cd0da",
-            "7a49dad2-7850-4f3d-84e6-103eb2fd9c70",
-            "8d1c6589-f27a-43cc-92a1-1f7282ff90dc",
-            "929371b0-fbd7-4e86-a045-840526169175",
-            "f9a32c78-21a3-4965-97b0-36ca9f180b5f"
+            "2f13d22f-e2ed-4c51-9cb2-8c75b582b599",
+            "413ce956-fe45-419f-82a1-e00b4dcd07c6",
+            "44ebaf51-1035-413e-8035-1ab17d3cdb3a",
+            "c467cff4-204b-4eec-bc11-8f8a443226ef",
+            "96d9c83b-30d8-4d59-9167-9afc8a3375dd",
+            "139179dd-4963-40a7-8ba4-67618c538b9d",
+            "7a0e8a33-6e74-41c7-b731-606c53fb489b",
+            "0292e9ea-0df9-4c38-b82e-b8dd0f19c606",
+            "0742c874-0593-4770-836b-7d362f1ec87a",
+            "1ab35360-8dbd-4f64-8212-ab989f536510",
+            "4fdbed4e-8292-4dfd-b025-7c3abe5529aa",
+            "c88d2c8b-1f8f-43b7-b4b7-fc78d900f78b",
+            "c2d8600a-5138-4b59-a43b-06dafc39fe2f",
+            "651a2c25-e5d2-4065-9495-438ed819e135",
+            "1942bc02-73c4-4020-8e57-4c247810db45",
+            "8bdd3b9c-ecec-477c-9dd0-587004d8670a",
+            "d797e451-32cf-4e40-b0cb-845502c83a15",
+            "b960151f-6f93-49a4-8e34-882687381076"
           ],
-          "duration": 24943,
+          "duration": 27269,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -543,348 +543,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "2bee7abd-6330-4c42-bd96-5fb777fa0664",
-      "title": "",
-      "fullFile": "cypress\\e2e\\hipaa-comp\\employee\\newsfeed\\common_scenarios.cy.ts",
-      "file": "cypress\\e2e\\hipaa-comp\\employee\\newsfeed\\common_scenarios.cy.ts",
-      "beforeHooks": [],
-      "afterHooks": [],
-      "tests": [],
-      "suites": [
-        {
-          "uuid": "c5feb998-7c87-492f-8581-64e6ddc47d81",
-          "title": "HIPAA COMP :  Employee : Newsfeed : Notifications",
-          "fullFile": "",
-          "file": "",
-          "beforeHooks": [],
-          "afterHooks": [],
-          "tests": [
-            {
-              "title": "Default items should visible",
-              "fullTitle": "HIPAA COMP :  Employee : Newsfeed : Notifications Default items should visible",
-              "timedOut": null,
-              "duration": 25318,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
-              "pending": false,
-              "context": null,
-              "code": "NEWSFEED.verifyItemsIfExist('E');",
-              "err": {
-                "message": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `dashboard-details`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before all` hook we are skipping all of the remaining tests.",
-                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `dashboard-details`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before all` hook we are skipping all of the remaining tests.\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137446:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137472:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145828:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145769:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)",
-                "diff": null
-              },
-              "uuid": "87949981-c9bb-4222-b7c8-0385aa3cca66",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": false
-            },
-            {
-              "title": "Validate items inside notifications pane",
-              "fullTitle": "HIPAA COMP :  Employee : Newsfeed : Notifications Validate items inside notifications pane",
-              "timedOut": null,
-              "duration": 0,
-              "state": "skipped",
-              "speed": null,
-              "pass": false,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "NEWSFEED.commonScenarios('validate-notifications');",
-              "err": {},
-              "uuid": "e9b6d282-085f-457c-a66d-0194e50932c8",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": true
-            },
-            {
-              "title": "Validate Marking all notifications as read",
-              "fullTitle": "HIPAA COMP :  Employee : Newsfeed : Notifications Validate Marking all notifications as read",
-              "timedOut": null,
-              "duration": 0,
-              "state": "skipped",
-              "speed": null,
-              "pass": false,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "NEWSFEED.commonScenarios('validate-mark-all-read');",
-              "err": {},
-              "uuid": "73245e84-e737-4692-9327-40816959a892",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": true
-            },
-            {
-              "title": "Validate clicking a notification from the notification pane",
-              "fullTitle": "HIPAA COMP :  Employee : Newsfeed : Notifications Validate clicking a notification from the notification pane",
-              "timedOut": null,
-              "duration": 0,
-              "state": "skipped",
-              "speed": null,
-              "pass": false,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "NEWSFEED.commonScenarios('validate-click-notification');",
-              "err": {},
-              "uuid": "c4386b52-8698-437f-a468-229783a737ee",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": true
-            }
-          ],
-          "suites": [],
-          "passes": [],
-          "failures": [
-            "87949981-c9bb-4222-b7c8-0385aa3cca66"
-          ],
-          "pending": [],
-          "skipped": [
-            "e9b6d282-085f-457c-a66d-0194e50932c8",
-            "73245e84-e737-4692-9327-40816959a892",
-            "c4386b52-8698-437f-a468-229783a737ee"
-          ],
-          "duration": 25318,
-          "root": false,
-          "rootEmpty": false,
-          "_timeout": 2000
-        }
-      ],
-      "passes": [],
-      "failures": [],
-      "pending": [],
-      "skipped": [],
-      "duration": 0,
-      "root": true,
-      "rootEmpty": true,
-      "_timeout": 2000
-    },
-    {
-      "uuid": "ba85a381-af2a-4988-96c8-44abf37c7675",
-      "title": "",
-      "fullFile": "cypress\\e2e\\hipaa-comp\\employee\\newsfeed\\filter.cy.ts",
-      "file": "cypress\\e2e\\hipaa-comp\\employee\\newsfeed\\filter.cy.ts",
-      "beforeHooks": [],
-      "afterHooks": [],
-      "tests": [],
-      "suites": [
-        {
-          "uuid": "642e6fbf-0b82-41f5-8d1d-1b9574f0b438",
-          "title": "HIPAA COMP :  Employee : Newsfeed : Filters",
-          "fullFile": "",
-          "file": "",
-          "beforeHooks": [],
-          "afterHooks": [],
-          "tests": [
-            {
-              "title": "Validate all must exist items inside Advanced Filter",
-              "fullTitle": "HIPAA COMP :  Employee : Newsfeed : Filters Validate all must exist items inside Advanced Filter",
-              "timedOut": null,
-              "duration": 24044,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
-              "pending": false,
-              "context": null,
-              "code": "NEWSFEED.filter('must-exist-items');",
-              "err": {
-                "message": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `dashboard-details`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before all` hook we are skipping all of the remaining tests.",
-                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `dashboard-details`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before all` hook we are skipping all of the remaining tests.\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137446:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137472:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145828:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145769:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)",
-                "diff": null
-              },
-              "uuid": "f75c3ca1-d7e9-4f40-95da-e83d640248a6",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": false
-            },
-            {
-              "title": "Validate filter by Micro Trainings, all post in timeline must all Micro Trainings",
-              "fullTitle": "HIPAA COMP :  Employee : Newsfeed : Filters Validate filter by Micro Trainings, all post in timeline must all Micro Trainings",
-              "timedOut": null,
-              "duration": 0,
-              "state": "skipped",
-              "speed": null,
-              "pass": false,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "NEWSFEED.filter('validate-filter-microtraining');",
-              "err": {},
-              "uuid": "3b853b06-a03c-4dce-84c9-697dc184e8a1",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": true
-            },
-            {
-              "title": "Validate filter by Newsletters, all post in timeline must all newsletters",
-              "fullTitle": "HIPAA COMP :  Employee : Newsfeed : Filters Validate filter by Newsletters, all post in timeline must all newsletters",
-              "timedOut": null,
-              "duration": 0,
-              "state": "skipped",
-              "speed": null,
-              "pass": false,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "NEWSFEED.filter('validate-filter-newsletters');",
-              "err": {},
-              "uuid": "2e7f927a-dbea-460f-aade-3ebea4113a75",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": true
-            },
-            {
-              "title": "Negative: Validate setting published future dats to FROM and TO will return no results",
-              "fullTitle": "HIPAA COMP :  Employee : Newsfeed : Filters Negative: Validate setting published future dats to FROM and TO will return no results",
-              "timedOut": null,
-              "duration": 0,
-              "state": "skipped",
-              "speed": null,
-              "pass": false,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "NEWSFEED.filter('validate-invalid-publish');",
-              "err": {},
-              "uuid": "de8b736f-9847-4ca0-989c-7b2c8af5cc01",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": true
-            },
-            {
-              "title": "Edge: Validate removing filter will display the timeline",
-              "fullTitle": "HIPAA COMP :  Employee : Newsfeed : Filters Edge: Validate removing filter will display the timeline",
-              "timedOut": null,
-              "duration": 0,
-              "state": "skipped",
-              "speed": null,
-              "pass": false,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "NEWSFEED.filter('validate-remove-filter');",
-              "err": {},
-              "uuid": "119ae33d-9240-40e2-823d-86ef0b725443",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": true
-            }
-          ],
-          "suites": [],
-          "passes": [],
-          "failures": [
-            "f75c3ca1-d7e9-4f40-95da-e83d640248a6"
-          ],
-          "pending": [],
-          "skipped": [
-            "3b853b06-a03c-4dce-84c9-697dc184e8a1",
-            "2e7f927a-dbea-460f-aade-3ebea4113a75",
-            "de8b736f-9847-4ca0-989c-7b2c8af5cc01",
-            "119ae33d-9240-40e2-823d-86ef0b725443"
-          ],
-          "duration": 24044,
-          "root": false,
-          "rootEmpty": false,
-          "_timeout": 2000
-        }
-      ],
-      "passes": [],
-      "failures": [],
-      "pending": [],
-      "skipped": [],
-      "duration": 0,
-      "root": true,
-      "rootEmpty": true,
-      "_timeout": 2000
-    },
-    {
-      "uuid": "ddc08ef8-6c32-40b6-8bf0-525733e31858",
-      "title": "",
-      "fullFile": "cypress\\e2e\\hipaa-comp\\employee\\newsfeed\\search.cy.ts",
-      "file": "cypress\\e2e\\hipaa-comp\\employee\\newsfeed\\search.cy.ts",
-      "beforeHooks": [],
-      "afterHooks": [],
-      "tests": [],
-      "suites": [
-        {
-          "uuid": "e41a9e8b-ea4a-423f-9653-d0000b80b8c5",
-          "title": "HIPAA COMP :  Employee : Newsfeed : Search",
-          "fullFile": "",
-          "file": "",
-          "beforeHooks": [],
-          "afterHooks": [],
-          "tests": [
-            {
-              "title": "Validate searching by Hashtag, all post must has #searched Hastag",
-              "fullTitle": "HIPAA COMP :  Employee : Newsfeed : Search Validate searching by Hashtag, all post must has #searched Hastag",
-              "timedOut": null,
-              "duration": 23409,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
-              "pending": false,
-              "context": null,
-              "code": "NEWSFEED.search('search-valid-hashtag', 'Hashtag');",
-              "err": {
-                "message": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `dashboard-details`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before all` hook we are skipping all of the remaining tests.",
-                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `dashboard-details`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before all` hook we are skipping all of the remaining tests.\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137446:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137472:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145828:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145769:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)",
-                "diff": null
-              },
-              "uuid": "d1fc057c-aa05-4e28-a0ba-d489f74b58cd",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": false
-            },
-            {
-              "title": "Validate API response after clicking 'Last Activity' from sort by selection",
-              "fullTitle": "HIPAA COMP :  Employee : Newsfeed : Search Validate API response after clicking 'Last Activity' from sort by selection",
-              "timedOut": null,
-              "duration": 0,
-              "state": "skipped",
-              "speed": null,
-              "pass": false,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "NEWSFEED.search('last-activity', 'User');",
-              "err": {},
-              "uuid": "bf9d01f1-19a0-4839-8a38-a2f0cb7d73bb",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": true
-            }
-          ],
-          "suites": [],
-          "passes": [],
-          "failures": [
-            "d1fc057c-aa05-4e28-a0ba-d489f74b58cd"
-          ],
-          "pending": [],
-          "skipped": [
-            "bf9d01f1-19a0-4839-8a38-a2f0cb7d73bb"
-          ],
-          "duration": 23409,
-          "root": false,
-          "rootEmpty": false,
-          "_timeout": 2000
-        }
-      ],
-      "passes": [],
-      "failures": [],
-      "pending": [],
-      "skipped": [],
-      "duration": 0,
-      "root": true,
-      "rootEmpty": true,
-      "_timeout": 2000
-    },
-    {
-      "uuid": "c74171b9-4266-44e0-8a55-0d58f817085e",
+      "uuid": "b10ceb14-b5b6-42fc-99ba-4444a1af0687",
       "title": "",
       "fullFile": "cypress\\e2e\\hipaa-comp\\employee\\my-dashboard\\employee_dark_web.cy.ts",
       "file": "cypress\\e2e\\hipaa-comp\\employee\\my-dashboard\\employee_dark_web.cy.ts",
@@ -893,7 +552,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "5a8f2b9c-0543-4bcb-bce6-e16abacb813e",
+          "uuid": "cb9a74f8-57bc-4b2c-a4e6-8a5596aaf3e6",
           "title": "HIPAA COMP : Employee : Dashboard : Dark Web - Run DWBA",
           "fullFile": "",
           "file": "",
@@ -904,7 +563,7 @@
               "title": "Default items should visible",
               "fullTitle": "HIPAA COMP : Employee : Dashboard : Dark Web - Run DWBA Default items should visible",
               "timedOut": null,
-              "duration": 25784,
+              "duration": 24741,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -917,7 +576,7 @@
                 "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `dashboard-details`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before all` hook we are skipping all of the remaining tests.\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137446:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137472:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145828:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145769:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)",
                 "diff": null
               },
-              "uuid": "f47d8472-16af-4de6-85d5-58a0f00fca4f",
+              "uuid": "4351d3dd-1a9b-4161-91ba-17a881e4b81e",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -935,7 +594,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('generate_results');",
               "err": {},
-              "uuid": "b6c6026d-3f89-40a1-b626-158484d730a9",
+              "uuid": "daeae636-8584-4b40-a8ce-6ccd4604a5a8",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -953,7 +612,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('good_news');",
               "err": {},
-              "uuid": "4451593e-5bc7-40f0-902f-eb71764cb2a8",
+              "uuid": "9679a2d8-b3ff-4f31-8854-072a7d0f5037",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -971,7 +630,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('empty_email_address');",
               "err": {},
-              "uuid": "4f1ea66e-1c0b-4c87-ab98-18d623db6b2e",
+              "uuid": "9389c665-65a9-42fe-8de3-47d0bf0a65f2",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -989,7 +648,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('email_format');",
               "err": {},
-              "uuid": "1c44bf50-9a3c-4305-aa50-4a32aa72e95d",
+              "uuid": "86e4c656-ad7b-4010-9024-e3f8bbe4d0dd",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1007,7 +666,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('generate_results');\nDARK_WEB.validateScenario('resetting_email');",
               "err": {},
-              "uuid": "bf559398-4a22-4af7-ac49-18fbbf3dba8b",
+              "uuid": "ab35efd2-b1d4-41f4-b7a6-d275e442f2ef",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1025,7 +684,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('reset_table_results');",
               "err": {},
-              "uuid": "3a08f5b4-71f3-4640-8c95-55495c8c25f8",
+              "uuid": "c6e20062-59f5-415b-a4a7-8bbc32740f32",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1043,7 +702,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('recheck_email_address');",
               "err": {},
-              "uuid": "a1138d66-b216-47c5-a208-13d06362fe58",
+              "uuid": "81258556-4ede-4f26-8210-4e7ef03c6c33",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1061,7 +720,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('column_sorting');",
               "err": {},
-              "uuid": "98199a0d-1b0f-457a-825c-147dae525137",
+              "uuid": "867294b4-a66d-46a9-ae5a-fb646d54a4c9",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1079,7 +738,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('compromised_data');",
               "err": {},
-              "uuid": "3b224bf2-c134-47c7-8ee0-21e2dbaebfa2",
+              "uuid": "ad7544c6-45de-47f7-9266-e971f18f98b2",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1088,21 +747,21 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "f47d8472-16af-4de6-85d5-58a0f00fca4f"
+            "4351d3dd-1a9b-4161-91ba-17a881e4b81e"
           ],
           "pending": [],
           "skipped": [
-            "b6c6026d-3f89-40a1-b626-158484d730a9",
-            "4451593e-5bc7-40f0-902f-eb71764cb2a8",
-            "4f1ea66e-1c0b-4c87-ab98-18d623db6b2e",
-            "1c44bf50-9a3c-4305-aa50-4a32aa72e95d",
-            "bf559398-4a22-4af7-ac49-18fbbf3dba8b",
-            "3a08f5b4-71f3-4640-8c95-55495c8c25f8",
-            "a1138d66-b216-47c5-a208-13d06362fe58",
-            "98199a0d-1b0f-457a-825c-147dae525137",
-            "3b224bf2-c134-47c7-8ee0-21e2dbaebfa2"
+            "daeae636-8584-4b40-a8ce-6ccd4604a5a8",
+            "9679a2d8-b3ff-4f31-8854-072a7d0f5037",
+            "9389c665-65a9-42fe-8de3-47d0bf0a65f2",
+            "86e4c656-ad7b-4010-9024-e3f8bbe4d0dd",
+            "ab35efd2-b1d4-41f4-b7a6-d275e442f2ef",
+            "c6e20062-59f5-415b-a4a7-8bbc32740f32",
+            "81258556-4ede-4f26-8210-4e7ef03c6c33",
+            "867294b4-a66d-46a9-ae5a-fb646d54a4c9",
+            "ad7544c6-45de-47f7-9266-e971f18f98b2"
           ],
-          "duration": 25784,
+          "duration": 24741,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -1118,7 +777,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "d00e7564-baec-4d4c-904d-f9b3a4f27734",
+      "uuid": "9180136e-919b-4b45-9444-fa42d390398a",
       "title": "",
       "fullFile": "cypress\\e2e\\hipaa-comp\\employee\\my-dashboard\\employee_micro_training.cy.ts",
       "file": "cypress\\e2e\\hipaa-comp\\employee\\my-dashboard\\employee_micro_training.cy.ts",
@@ -1127,7 +786,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "32bb521c-1010-4b78-ba20-dd2280802f08",
+          "uuid": "d770f5e2-20a7-4584-ad65-df23536fa785",
           "title": "HIPAA COMP : Employee : Dashboard : Micro Training",
           "fullFile": "",
           "file": "",
@@ -1138,7 +797,7 @@
               "title": "Default items should visible",
               "fullTitle": "HIPAA COMP : Employee : Dashboard : Micro Training Default items should visible",
               "timedOut": null,
-              "duration": 23282,
+              "duration": 26295,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1151,7 +810,7 @@
                 "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `dashboard-details`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before all` hook we are skipping all of the remaining tests.\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137446:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137472:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145828:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145769:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)",
                 "diff": null
               },
-              "uuid": "79e53832-a319-4fd8-ba46-014521ccbddd",
+              "uuid": "706c2bd1-3a0b-4703-a47d-b55d716e9f42",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -1169,7 +828,7 @@
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('default_texts');",
               "err": {},
-              "uuid": "6c6d8b81-e12f-4138-a525-ebdbaaddf115",
+              "uuid": "9f7e6fcb-5159-438f-9969-fa8f85e318ca",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1187,7 +846,7 @@
               "context": null,
               "code": "COMM_ELEMENTS.viewPageItems('200');\nMICRO_TRAINING.validateScenario('all_trainings');",
               "err": {},
-              "uuid": "28a1a20c-bc68-4370-984f-2fadd32eb65b",
+              "uuid": "35aa39f3-9199-442b-97ac-c094a0e0142b",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1205,7 +864,7 @@
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('watch_trainings');",
               "err": {},
-              "uuid": "1af221ce-afee-4ba6-b314-f0fa7e9f35ce",
+              "uuid": "23902dc8-a546-43ca-a144-d565f50bbb88",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1223,7 +882,7 @@
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('answered_trainings');\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
-              "uuid": "2e57b485-13aa-441d-8d4b-4ec13c777565",
+              "uuid": "29a1dec6-2091-4919-9aa4-37356c906483",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1241,7 +900,7 @@
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('submission');\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
-              "uuid": "5c7a0286-6ac2-46bc-8415-b82908fe2f39",
+              "uuid": "8f03d05e-e94d-487d-9433-c5bba8d26c64",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1259,7 +918,7 @@
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('disable_submission');\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
-              "uuid": "05e62c5b-839c-42c3-8153-05584cb86ffa",
+              "uuid": "aeaf7a60-f15b-4160-b0b1-4c8116522bda",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1277,7 +936,7 @@
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('select_answers');\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
-              "uuid": "438c0fdf-8ca2-4794-85c9-3d59b840ff8f",
+              "uuid": "0c6e1f7f-2b6e-41b6-a2c8-b23540d9fb88",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1295,7 +954,7 @@
               "context": null,
               "code": "COMM_ELEMENTS.itemsPagination('25', '');",
               "err": {},
-              "uuid": "c1f2d66e-acd8-47d3-8ca0-57091eaa1bc1",
+              "uuid": "22f315bd-35be-4a20-b672-1c45202a7c67",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1313,7 +972,7 @@
               "context": null,
               "code": "COMM_ELEMENTS.itemsPagination('50', '');",
               "err": {},
-              "uuid": "9300e30c-349d-47fd-a6a3-e0fe07cd00fe",
+              "uuid": "e0c409be-e270-421f-8d8c-8968317985e5",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1331,7 +990,7 @@
               "context": null,
               "code": "COMM_ELEMENTS.itemsPagination('100', '');",
               "err": {},
-              "uuid": "4a379bd3-7c04-4bb3-b102-d2c3236ac708",
+              "uuid": "c90beb3d-3605-4ffc-94db-b91fc1ebcc01",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1349,7 +1008,7 @@
               "context": null,
               "code": "COMM_ELEMENTS.itemsPagination('200', '');",
               "err": {},
-              "uuid": "59c29531-5f52-4381-be34-22e4ed29efee",
+              "uuid": "c5992b3a-25cb-4ebf-9d94-8696c60de1ba",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1367,7 +1026,7 @@
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('validate-average');",
               "err": {},
-              "uuid": "b8fc2db6-57c5-4ad5-97d5-9791126524aa",
+              "uuid": "409d6fb7-df2e-496b-a0d6-7e483562e9b4",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1385,7 +1044,7 @@
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('validate-quizes-taken');",
               "err": {},
-              "uuid": "a3f7b92c-6ab0-4f2f-bb1d-b77a585b5b8c",
+              "uuid": "604dba41-b649-43dc-b300-0dad362a8258",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1394,25 +1053,25 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "79e53832-a319-4fd8-ba46-014521ccbddd"
+            "706c2bd1-3a0b-4703-a47d-b55d716e9f42"
           ],
           "pending": [],
           "skipped": [
-            "6c6d8b81-e12f-4138-a525-ebdbaaddf115",
-            "28a1a20c-bc68-4370-984f-2fadd32eb65b",
-            "1af221ce-afee-4ba6-b314-f0fa7e9f35ce",
-            "2e57b485-13aa-441d-8d4b-4ec13c777565",
-            "5c7a0286-6ac2-46bc-8415-b82908fe2f39",
-            "05e62c5b-839c-42c3-8153-05584cb86ffa",
-            "438c0fdf-8ca2-4794-85c9-3d59b840ff8f",
-            "c1f2d66e-acd8-47d3-8ca0-57091eaa1bc1",
-            "9300e30c-349d-47fd-a6a3-e0fe07cd00fe",
-            "4a379bd3-7c04-4bb3-b102-d2c3236ac708",
-            "59c29531-5f52-4381-be34-22e4ed29efee",
-            "b8fc2db6-57c5-4ad5-97d5-9791126524aa",
-            "a3f7b92c-6ab0-4f2f-bb1d-b77a585b5b8c"
+            "9f7e6fcb-5159-438f-9969-fa8f85e318ca",
+            "35aa39f3-9199-442b-97ac-c094a0e0142b",
+            "23902dc8-a546-43ca-a144-d565f50bbb88",
+            "29a1dec6-2091-4919-9aa4-37356c906483",
+            "8f03d05e-e94d-487d-9433-c5bba8d26c64",
+            "aeaf7a60-f15b-4160-b0b1-4c8116522bda",
+            "0c6e1f7f-2b6e-41b6-a2c8-b23540d9fb88",
+            "22f315bd-35be-4a20-b672-1c45202a7c67",
+            "e0c409be-e270-421f-8d8c-8968317985e5",
+            "c90beb3d-3605-4ffc-94db-b91fc1ebcc01",
+            "c5992b3a-25cb-4ebf-9d94-8696c60de1ba",
+            "409d6fb7-df2e-496b-a0d6-7e483562e9b4",
+            "604dba41-b649-43dc-b300-0dad362a8258"
           ],
-          "duration": 23282,
+          "duration": 26295,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -1428,7 +1087,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "8d4ea398-758b-4982-b0ba-d1cb45bc8d99",
+      "uuid": "5f95805b-6038-43bf-9adf-f18399a27a82",
       "title": "",
       "fullFile": "cypress\\e2e\\hipaa-comp\\employee\\my-dashboard\\employee_newsletters.cy.ts",
       "file": "cypress\\e2e\\hipaa-comp\\employee\\my-dashboard\\employee_newsletters.cy.ts",
@@ -1437,7 +1096,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "72d92c9b-debd-4683-84d2-4be3fb140fd1",
+          "uuid": "c3bf243d-43df-414d-b902-aacb9a2c6833",
           "title": "HIPAA COMP : Employee : Dashboard : Newsletters",
           "fullFile": "",
           "file": "",
@@ -1448,7 +1107,7 @@
               "title": "Default items should visible",
               "fullTitle": "HIPAA COMP : Employee : Dashboard : Newsletters Default items should visible",
               "timedOut": null,
-              "duration": 23991,
+              "duration": 24907,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1461,7 +1120,7 @@
                 "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `dashboard-details`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before all` hook we are skipping all of the remaining tests.\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137446:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137472:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145828:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145769:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)",
                 "diff": null
               },
-              "uuid": "0e95240d-564e-43a2-b632-c3c23106f4b5",
+              "uuid": "ad74cad1-81bf-472e-b033-74dd70880f30",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -1479,7 +1138,7 @@
               "context": null,
               "code": "NEWSLETTER.validateScenario('default_texts');",
               "err": {},
-              "uuid": "01581864-0551-4fc5-a15c-6016468dbbd9",
+              "uuid": "830006cc-8081-421c-84eb-3af77b23a5d3",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1497,7 +1156,7 @@
               "context": null,
               "code": "NEWSLETTER.validateScenario('download_newsletter_pdf');",
               "err": {},
-              "uuid": "f90f92b3-a0bd-4699-91a8-29840b6b01e7",
+              "uuid": "c7115533-2e74-4fb2-8451-dfc9e44f43a2",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1515,7 +1174,7 @@
               "context": null,
               "code": "COMM_ELEMENTS.itemsPagination('25', '');",
               "err": {},
-              "uuid": "34755b1e-5c58-49fa-aaa1-e83a14ddfa98",
+              "uuid": "b43d581b-fa0f-403c-aefd-63cbfeb6d2cf",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1533,7 +1192,7 @@
               "context": null,
               "code": "COMM_ELEMENTS.itemsPagination('50', '');",
               "err": {},
-              "uuid": "ec50a778-1213-43a3-80a5-9c244e3f2709",
+              "uuid": "7c14c87e-94cd-4c00-aca4-2127e52625e2",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1551,7 +1210,7 @@
               "context": null,
               "code": "COMM_ELEMENTS.itemsPagination('100', '');",
               "err": {},
-              "uuid": "f782e8a8-a060-4961-9d19-f6ed6b600078",
+              "uuid": "747b484f-3d55-4d1a-93dc-bf8f2f54dd3f",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1569,7 +1228,7 @@
               "context": null,
               "code": "COMM_ELEMENTS.itemsPagination('200', '');",
               "err": {},
-              "uuid": "f783dbe4-5f98-44c1-b938-9033e017f415",
+              "uuid": "c018b2c7-68ee-4378-9653-db487be4c767",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1578,24 +1237,24 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "0e95240d-564e-43a2-b632-c3c23106f4b5"
+            "ad74cad1-81bf-472e-b033-74dd70880f30"
           ],
           "pending": [],
           "skipped": [
-            "01581864-0551-4fc5-a15c-6016468dbbd9",
-            "f90f92b3-a0bd-4699-91a8-29840b6b01e7",
-            "34755b1e-5c58-49fa-aaa1-e83a14ddfa98",
-            "ec50a778-1213-43a3-80a5-9c244e3f2709",
-            "f782e8a8-a060-4961-9d19-f6ed6b600078",
-            "f783dbe4-5f98-44c1-b938-9033e017f415"
+            "830006cc-8081-421c-84eb-3af77b23a5d3",
+            "c7115533-2e74-4fb2-8451-dfc9e44f43a2",
+            "b43d581b-fa0f-403c-aefd-63cbfeb6d2cf",
+            "7c14c87e-94cd-4c00-aca4-2127e52625e2",
+            "747b484f-3d55-4d1a-93dc-bf8f2f54dd3f",
+            "c018b2c7-68ee-4378-9653-db487be4c767"
           ],
-          "duration": 23991,
+          "duration": 24907,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "5a6fcc0d-5c15-42cc-a180-1a28fc966b3d",
+          "uuid": "794905b1-0c36-46bd-9b16-7606e14ed4b3",
           "title": "HIPAA COMP : Employee : Dashboard : Sorting functionality",
           "fullFile": "",
           "file": "",
@@ -1615,7 +1274,7 @@
               "context": null,
               "code": "NEWSLETTER.validateSorting('Name', 'ascending');",
               "err": {},
-              "uuid": "979ac68d-9021-4697-acc9-b18364030516",
+              "uuid": "0f8a5369-3830-4cde-8970-b7c227f9ce5c",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1633,7 +1292,7 @@
               "context": null,
               "code": "NEWSLETTER.validateSorting('Name', 'descending');",
               "err": {},
-              "uuid": "5c73f909-63e8-47fa-b149-5d9c62bb458f",
+              "uuid": "451a3543-a3ea-4dfa-9a47-65ba6eae8d96",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1651,7 +1310,7 @@
               "context": null,
               "code": "NEWSLETTER.validateSorting('Published', 'ascending');",
               "err": {},
-              "uuid": "d335ff10-0540-44de-8b94-ff5dd659c1a2",
+              "uuid": "3ed03e57-b826-4e9e-87ff-6266a84db94d",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1669,7 +1328,7 @@
               "context": null,
               "code": "NEWSLETTER.validateSorting('Published', 'descending');",
               "err": {},
-              "uuid": "24f67450-0065-454d-92da-072f93119d39",
+              "uuid": "71cbf219-421e-4738-83e2-d2c63c5b20f2",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1680,10 +1339,10 @@
           "failures": [],
           "pending": [],
           "skipped": [
-            "979ac68d-9021-4697-acc9-b18364030516",
-            "5c73f909-63e8-47fa-b149-5d9c62bb458f",
-            "d335ff10-0540-44de-8b94-ff5dd659c1a2",
-            "24f67450-0065-454d-92da-072f93119d39"
+            "0f8a5369-3830-4cde-8970-b7c227f9ce5c",
+            "451a3543-a3ea-4dfa-9a47-65ba6eae8d96",
+            "3ed03e57-b826-4e9e-87ff-6266a84db94d",
+            "71cbf219-421e-4738-83e2-d2c63c5b20f2"
           ],
           "duration": 0,
           "root": false,
@@ -1701,7 +1360,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "32778f5e-cd7b-48cd-b99f-6c8eb286d6b0",
+      "uuid": "00424d82-9861-4ef1-b3a0-fa465bcbffc0",
       "title": "",
       "fullFile": "cypress\\e2e\\hipaa-comp\\employee\\my-dashboard\\employee_policies.cy.ts",
       "file": "cypress\\e2e\\hipaa-comp\\employee\\my-dashboard\\employee_policies.cy.ts",
@@ -1710,7 +1369,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "73e2acf4-2ee4-4181-9d0f-063fd10d234b",
+          "uuid": "7e9f2bd6-7942-42f5-8c56-e59b0591a644",
           "title": "HIPAA COMP : Employee : Dashboard : Policy & Procedure",
           "fullFile": "",
           "file": "",
@@ -1721,7 +1380,7 @@
               "title": "Default items should visible",
               "fullTitle": "HIPAA COMP : Employee : Dashboard : Policy & Procedure Default items should visible",
               "timedOut": null,
-              "duration": 25364,
+              "duration": 24853,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1734,7 +1393,7 @@
                 "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `dashboard-details`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before all` hook we are skipping all of the remaining tests.\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137446:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137472:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145828:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145769:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)",
                 "diff": null
               },
-              "uuid": "fd06d272-bb43-4e16-b33e-86b7dd10d599",
+              "uuid": "1f1b8446-2d11-4ffc-b776-7f7142444f7f",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -1752,7 +1411,7 @@
               "context": null,
               "code": "POLICIES.policyTypes('policies', 'existing_policies', 'HIPAA_COMP');",
               "err": {},
-              "uuid": "6a49604d-4d64-4bb1-9719-efc6674eeb58",
+              "uuid": "2fb2dc96-7523-4748-a7ce-35da63a7aec4",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1770,7 +1429,7 @@
               "context": null,
               "code": "POLICIES.policyTypes('policies', 'validate_api_status', 'HIPAA_COMP');\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
-              "uuid": "e8658e26-50ce-46a0-9c24-cb569a887258",
+              "uuid": "8210cb7d-7c40-4d61-bf88-22526d79523f",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1788,7 +1447,7 @@
               "context": null,
               "code": "POLICIES.viewModalOtherPolicy('policies');\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
-              "uuid": "95c18847-962d-461d-876b-1e9ae314c480",
+              "uuid": "27546ad4-b1a4-47a2-ab89-060637c4b9bb",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1797,15 +1456,15 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "fd06d272-bb43-4e16-b33e-86b7dd10d599"
+            "1f1b8446-2d11-4ffc-b776-7f7142444f7f"
           ],
           "pending": [],
           "skipped": [
-            "6a49604d-4d64-4bb1-9719-efc6674eeb58",
-            "e8658e26-50ce-46a0-9c24-cb569a887258",
-            "95c18847-962d-461d-876b-1e9ae314c480"
+            "2fb2dc96-7523-4748-a7ce-35da63a7aec4",
+            "8210cb7d-7c40-4d61-bf88-22526d79523f",
+            "27546ad4-b1a4-47a2-ab89-060637c4b9bb"
           ],
-          "duration": 25364,
+          "duration": 24853,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -1821,7 +1480,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "10b57110-488e-4256-a712-dbd2b5d14cb6",
+      "uuid": "5a6195d7-2b5f-4509-a972-2123f7f81e7e",
       "title": "",
       "fullFile": "cypress\\e2e\\hipaa-comp\\employee\\my-dashboard\\employee_training.cy.ts",
       "file": "cypress\\e2e\\hipaa-comp\\employee\\my-dashboard\\employee_training.cy.ts",
@@ -1830,7 +1489,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "b37b64cf-15fb-4bcd-bf8b-7d39281eba8c",
+          "uuid": "a42554fa-06ca-4eb6-bf6a-25a87abf66be",
           "title": "HIPAA COMP : Employee : Dashboard : Training",
           "fullFile": "",
           "file": "",
@@ -1841,7 +1500,7 @@
               "title": "Default items should visible",
               "fullTitle": "HIPAA COMP : Employee : Dashboard : Training Default items should visible",
               "timedOut": null,
-              "duration": 26215,
+              "duration": 27246,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1854,7 +1513,7 @@
                 "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `dashboard-details`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before all` hook we are skipping all of the remaining tests.\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137446:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137472:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145828:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145769:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)",
                 "diff": null
               },
-              "uuid": "d2368d78-b643-4743-b559-66623fd25709",
+              "uuid": "dd22d826-f6a3-4317-bcb3-9ca7f1bb5778",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -1872,7 +1531,7 @@
               "context": null,
               "code": "TRAINING.completedCourses('default_texts');",
               "err": {},
-              "uuid": "089e0116-4fa7-4e64-82bb-620cdc3556b8",
+              "uuid": "3d7140b4-cee1-48a5-bd5b-717bf91ac140",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1890,7 +1549,7 @@
               "context": null,
               "code": "TRAINING.completedCourses('security_training_videos');",
               "err": {},
-              "uuid": "92d13d17-8333-4762-8a1a-e493617cb2fe",
+              "uuid": "9f142950-7a90-4cd8-9804-1dd271162ff5",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1908,7 +1567,7 @@
               "context": null,
               "code": "TRAINING.completedCourses('complete_security_quiz');",
               "err": {},
-              "uuid": "6771d1e4-1e78-4723-9a07-a158b3626929",
+              "uuid": "a018fbb2-9f8a-4099-a4e4-133cac9bccde",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1926,7 +1585,7 @@
               "context": null,
               "code": "TRAINING.completedCourses('review_security_quiz');",
               "err": {},
-              "uuid": "65f224ff-8f89-49e0-925e-0e1f9b04b419",
+              "uuid": "593dc22c-a9e5-4f2d-8309-901c519e2486",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1944,7 +1603,7 @@
               "context": null,
               "code": "TRAINING.completedCourses('print_certificate');",
               "err": {},
-              "uuid": "50483c41-1dc3-4445-9df0-6e6a2db7b32f",
+              "uuid": "2292fa10-011d-4a99-806b-00548d4a20ed",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1962,7 +1621,7 @@
               "context": null,
               "code": "TRAINING.enrolledCourses();",
               "err": {},
-              "uuid": "eab345a0-5903-4903-bc1f-4b9ae7d84b5b",
+              "uuid": "5552a195-776f-4a7f-b008-72c0c3286664",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1971,18 +1630,359 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "d2368d78-b643-4743-b559-66623fd25709"
+            "dd22d826-f6a3-4317-bcb3-9ca7f1bb5778"
           ],
           "pending": [],
           "skipped": [
-            "089e0116-4fa7-4e64-82bb-620cdc3556b8",
-            "92d13d17-8333-4762-8a1a-e493617cb2fe",
-            "6771d1e4-1e78-4723-9a07-a158b3626929",
-            "65f224ff-8f89-49e0-925e-0e1f9b04b419",
-            "50483c41-1dc3-4445-9df0-6e6a2db7b32f",
-            "eab345a0-5903-4903-bc1f-4b9ae7d84b5b"
+            "3d7140b4-cee1-48a5-bd5b-717bf91ac140",
+            "9f142950-7a90-4cd8-9804-1dd271162ff5",
+            "a018fbb2-9f8a-4099-a4e4-133cac9bccde",
+            "593dc22c-a9e5-4f2d-8309-901c519e2486",
+            "2292fa10-011d-4a99-806b-00548d4a20ed",
+            "5552a195-776f-4a7f-b008-72c0c3286664"
           ],
-          "duration": 26215,
+          "duration": 27246,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "a02b305b-31d5-4d15-a249-9674ae6595ab",
+      "title": "",
+      "fullFile": "cypress\\e2e\\hipaa-comp\\employee\\newsfeed\\common_scenarios.cy.ts",
+      "file": "cypress\\e2e\\hipaa-comp\\employee\\newsfeed\\common_scenarios.cy.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "92e38d1a-712d-44b9-a895-cc39806467a9",
+          "title": "HIPAA COMP :  Employee : Newsfeed : Notifications",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Default items should visible",
+              "fullTitle": "HIPAA COMP :  Employee : Newsfeed : Notifications Default items should visible",
+              "timedOut": null,
+              "duration": 25417,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "NEWSFEED.verifyItemsIfExist('E');",
+              "err": {
+                "message": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `dashboard-details`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before all` hook we are skipping all of the remaining tests.",
+                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `dashboard-details`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before all` hook we are skipping all of the remaining tests.\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137446:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137472:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145828:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145769:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)",
+                "diff": null
+              },
+              "uuid": "c5a56b48-1cf3-4004-a20f-28e33d1eb8c3",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate items inside notifications pane",
+              "fullTitle": "HIPAA COMP :  Employee : Newsfeed : Notifications Validate items inside notifications pane",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "NEWSFEED.commonScenarios('validate-notifications');",
+              "err": {},
+              "uuid": "a9f53cc1-9d70-485b-b25d-e73c819e44ca",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Validate Marking all notifications as read",
+              "fullTitle": "HIPAA COMP :  Employee : Newsfeed : Notifications Validate Marking all notifications as read",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "NEWSFEED.commonScenarios('validate-mark-all-read');",
+              "err": {},
+              "uuid": "e2bcb3f2-4b38-4939-a802-aa48704f0b6e",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Validate clicking a notification from the notification pane",
+              "fullTitle": "HIPAA COMP :  Employee : Newsfeed : Notifications Validate clicking a notification from the notification pane",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "NEWSFEED.commonScenarios('validate-click-notification');",
+              "err": {},
+              "uuid": "45f0a7c4-1c4a-4ef7-8cd2-7079233d2c57",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "c5a56b48-1cf3-4004-a20f-28e33d1eb8c3"
+          ],
+          "pending": [],
+          "skipped": [
+            "a9f53cc1-9d70-485b-b25d-e73c819e44ca",
+            "e2bcb3f2-4b38-4939-a802-aa48704f0b6e",
+            "45f0a7c4-1c4a-4ef7-8cd2-7079233d2c57"
+          ],
+          "duration": 25417,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "bb5fef54-d858-46a7-9024-32108bfc2d77",
+      "title": "",
+      "fullFile": "cypress\\e2e\\hipaa-comp\\employee\\newsfeed\\filter.cy.ts",
+      "file": "cypress\\e2e\\hipaa-comp\\employee\\newsfeed\\filter.cy.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2360c332-2a98-403c-bcd0-49be332cb093",
+          "title": "HIPAA COMP :  Employee : Newsfeed : Filters",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validate all must exist items inside Advanced Filter",
+              "fullTitle": "HIPAA COMP :  Employee : Newsfeed : Filters Validate all must exist items inside Advanced Filter",
+              "timedOut": null,
+              "duration": 27292,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "NEWSFEED.filter('must-exist-items');",
+              "err": {
+                "message": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `dashboard-details`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before all` hook we are skipping all of the remaining tests.",
+                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `dashboard-details`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before all` hook we are skipping all of the remaining tests.\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137446:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137472:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145828:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145769:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)",
+                "diff": null
+              },
+              "uuid": "d2f30aa2-f33a-46e5-bc5b-edc3529d4116",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate filter by Micro Trainings, all post in timeline must all Micro Trainings",
+              "fullTitle": "HIPAA COMP :  Employee : Newsfeed : Filters Validate filter by Micro Trainings, all post in timeline must all Micro Trainings",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "NEWSFEED.filter('validate-filter-microtraining');",
+              "err": {},
+              "uuid": "9281b756-2b73-4dcb-a662-5f51c85c500b",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Validate filter by Newsletters, all post in timeline must all newsletters",
+              "fullTitle": "HIPAA COMP :  Employee : Newsfeed : Filters Validate filter by Newsletters, all post in timeline must all newsletters",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "NEWSFEED.filter('validate-filter-newsletters');",
+              "err": {},
+              "uuid": "8b146806-0e66-47fd-8d08-3d9ab4e16d11",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Negative: Validate setting published future dats to FROM and TO will return no results",
+              "fullTitle": "HIPAA COMP :  Employee : Newsfeed : Filters Negative: Validate setting published future dats to FROM and TO will return no results",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "NEWSFEED.filter('validate-invalid-publish');",
+              "err": {},
+              "uuid": "81c9ccb5-fb74-40ef-a269-656766812926",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Edge: Validate removing filter will display the timeline",
+              "fullTitle": "HIPAA COMP :  Employee : Newsfeed : Filters Edge: Validate removing filter will display the timeline",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "NEWSFEED.filter('validate-remove-filter');",
+              "err": {},
+              "uuid": "ca5437b7-2c7c-4877-bf03-30e504ac0f5a",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "d2f30aa2-f33a-46e5-bc5b-edc3529d4116"
+          ],
+          "pending": [],
+          "skipped": [
+            "9281b756-2b73-4dcb-a662-5f51c85c500b",
+            "8b146806-0e66-47fd-8d08-3d9ab4e16d11",
+            "81c9ccb5-fb74-40ef-a269-656766812926",
+            "ca5437b7-2c7c-4877-bf03-30e504ac0f5a"
+          ],
+          "duration": 27292,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "bb5d5844-867a-49ab-9218-7b105aa1ff89",
+      "title": "",
+      "fullFile": "cypress\\e2e\\hipaa-comp\\employee\\newsfeed\\search.cy.ts",
+      "file": "cypress\\e2e\\hipaa-comp\\employee\\newsfeed\\search.cy.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b53778f0-18de-47ed-ba13-9e451e6e2813",
+          "title": "HIPAA COMP :  Employee : Newsfeed : Search",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validate searching by Hashtag, all post must has #searched Hastag",
+              "fullTitle": "HIPAA COMP :  Employee : Newsfeed : Search Validate searching by Hashtag, all post must has #searched Hastag",
+              "timedOut": null,
+              "duration": 24602,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "NEWSFEED.search('search-valid-hashtag', 'Hashtag');",
+              "err": {
+                "message": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `dashboard-details`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before all` hook we are skipping all of the remaining tests.",
+                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `dashboard-details`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before all` hook we are skipping all of the remaining tests.\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137446:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137472:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145828:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145769:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)",
+                "diff": null
+              },
+              "uuid": "cb79e699-2d52-40bb-952a-ae06832f23fc",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate API response after clicking 'Last Activity' from sort by selection",
+              "fullTitle": "HIPAA COMP :  Employee : Newsfeed : Search Validate API response after clicking 'Last Activity' from sort by selection",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "NEWSFEED.search('last-activity', 'User');",
+              "err": {},
+              "uuid": "c7bbae7c-5967-42f2-ab73-0ad0bd7fb055",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "cb79e699-2d52-40bb-952a-ae06832f23fc"
+          ],
+          "pending": [],
+          "skipped": [
+            "c7bbae7c-5967-42f2-ab73-0ad0bd7fb055"
+          ],
+          "duration": 24602,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
